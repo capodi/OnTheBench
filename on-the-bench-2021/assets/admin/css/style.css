@@ -1,0 +1,370 @@
+@charset "utf-8";
+/* CSS Document */
+.tofw-product { 
+	background-color:#F8F0F1;
+	padding:5px;
+	margin-bottom:12px;
+}
+.tofw-product img {
+	width:100%;
+	height:auto; 
+}
+.tofw-product .tofw-product-title {
+	font-size:18px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.post-type-otb_jobs #normal-sortables {
+	display:none;
+}																							
+.post-type-otb_jobs #post-body-content {
+	margin-bottom:0px;																					
+}
+select {
+	height: 2.4375rem !important;
+    margin: 0 0 1rem !important;
+    padding: 0.5rem !important;
+	line-height: 1.0 !important;
+	background-position: right -0rem center !important;
+}
+#addPart {
+	margin-top:4px;
+}
+.grey-bg {
+	background-color:#f7f7f7;
+	width:100%;
+}
+.tofw_table th {
+	text-align:left;
+	padding:12px;
+	border:1px solid #f1f1f1;
+	background:#f1f1f1;
+}
+.tofw_table td {
+	text-align:left;
+	padding:10px;
+	background:#fff;
+	border:1px solid #fff;
+}
+.tofw_table tr {
+	position: relative;
+}
+.delme { 
+	display: inline-block; 
+	margin-right:15px; 
+	color: #000; 
+	text-decoration: none; 
+	background: #EEEEEE; 
+	font-weight: bold; 
+	padding: 0px 3px; 
+	border: 1px solid; 
+	font-size: 12px; 
+}
+input.tofw_special_input {
+	max-width: 100px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    height: 30px;
+    padding: 5px;
+    border-color: #f7f7f7;
+	background:#f7f7f7;
+	margin:auto;
+}
+.tofw_extra_qty input.tofw_special_input,
+.tofw_service_qty input.tofw_special_input,
+.tofw_qty input.tofw_special_input {
+	max-width:56px;
+}
+.tofw_extra_name input.tofw_special_input {
+	max-width:calc(100% - 35px);
+	display:inline-block;
+}
+.tofw_product_price_total,
+.tofw_extra_price_total,
+.tofw_service_price_total,
+.tofw_price_total {
+	font-weight:bold;
+}
+.tofw_grand_total_wrap {
+	font-weight:bold;
+	text-align:right;
+}
+.tofw_grandtotal {
+    font-weight: bold;
+    font-size: 22px;
+    color: #007cba;
+}
+.order_totals_calculations {
+	width:100%;
+	text-align:right;
+}
+.order_totals_calculations td {
+	font-size:20px;
+}
+.tofw_order_status_wrap select {
+	margin-bottom:0px;
+}
+.true_pre_image {
+	display:block;
+	margin-bottom:7px;
+	margin-top:8px;
+}
+.invoice-box {
+	max-width: 800px;
+	margin: auto;
+	padding: 30px;
+	border: 1px solid #eee;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+	font-size: 12px;
+	line-height: 1.4;
+	color: #555;
+	background-color:#FFF;
+}
+.invoice-box table {
+	width: 100%;
+	line-height: inherit;
+	text-align: left;
+}
+.invoice-box table td {
+	padding: 5px;
+	vertical-align: top;
+}
+.invoice-box table tr td:nth-child(2) {
+	text-align: right;
+}
+.invoice-box table .special_head td:nth-child(2) {
+	text-align:left;
+}
+.invoice-box table tr.top table td {
+	padding-bottom: 5px;
+}
+.invoice-box table tr.top table td.title {
+	font-size: 45px;
+	line-height: 45px;
+	color: #333;
+}
+.invoice-box table tr.information table td {
+	padding-bottom: 15px;
+}
+.invoice-box table tr.heading td {
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	font-weight: bold;
+}
+.invoice-box table tr.details td {
+	padding-bottom: 20px;
+}
+.invoice-box table tr.item-row td{
+	border-bottom: 1px solid #eee;
+}
+.invoice-box table tr.total td:nth-child(2) {
+	border-top: 2px solid #eee;
+	font-weight: bold;
+}
+.invoice-box table tr.item-row .delme {
+	display:none;
+}
+.invoice-box table tr.item-row td:nth-child(2) {
+	text-align:left;
+}
+.invoice-box table tr.item-row td:last-child {
+	text-align:right;
+}
+.invoice-box table tr.item-row td input {
+	background:transparent;
+	margin:0px;
+	width:auto;
+	padding:0px;
+	height:auto;
+	border:0px;
+	max-width:70px;
+	min-width:auto;
+}
+.invoice-box table tr.item-row:last-child > td {
+	border-bottom:0px;
+}
+.invoice_totals table {
+	border:1px solid #ededed;
+	max-width:350px;
+	text-align:right;
+	float:right;
+	margin-bottom:15px;
+}
+.invoice_totals:after {
+	clear:both;
+	display:table;
+	content:"";
+}
+.invoice-box:after {
+	clear:both;
+	display:table;
+	content:"";
+}
+.invoice-items, 
+.invoice_totals,
+.invoice_headers {
+	font-size:12px;
+	line-height:1.4;
+}
+.button.hidden-print {
+	margin-top:35px;
+	float:right;
+}
+@media only screen and (max-width: 600px) {
+	.invoice-box table tr.top table td {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	.invoice-box table tr.information table td {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+}
+
+/*
+	* 
+	*	RTL 
+	*
+*/
+.rtl {
+	direction: rtl;
+	font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+}
+.rtl table {
+	text-align: right;
+}
+.rtl table tr td:nth-child(2) {
+	text-align: left;
+}
+
+@media print {    
+	#screen-meta {
+		display:none !important;
+	}
+	#wpcontent {
+		padding:0px !important;
+		margin-left:0px !important;
+	}
+	.invoice-box.ticket-box {
+		width:100% !important;
+		max-width:100% !important;
+		/*margin: auto;*/
+		padding: 0px;
+		border: 0px !important;
+		box-shadow: 0px 0px 0px 0px !important;
+		background-color:transparent;
+		float:left;
+	}
+	#wpbody-content {
+		padding-bottom:0px;
+	}
+	body {
+		min-width:auto;
+		max-width:100%;
+		min-height:unset;
+		height:auto;
+	}
+	#wpwrap {
+		min-height:unset;
+	}
+	html.wp-toolbar {
+		padding-top:0px;
+	}
+	#wpfooter, #adminmenuwrap, #adminmenuwrap *, #adminmenuback, #adminmenuback *{
+		display: none !important;
+		width:0px;
+	}
+	.hidden-print,
+    .hidden-print * {
+        display: none !important;
+    }
+}
+/* 
+	POS Invoice CSS
+	Used for Repair Order
+*/
+.invoice-box.ticket-box {
+	width:250px;
+}
+.invoice-box.ticket-box td,
+.invoice-box.ticket-box th,
+.invoice-box.ticket-box tr,
+.invoice-box.ticket-box table {
+    border-top: 1px solid #ededed;
+    border-collapse: collapse;
+}
+.invoice-box.ticket-box .centered {
+    text-align: center;
+    align-content: center;
+}
+.invoice-box.ticket-box .ticket {
+    width: 195px;
+    max-width: 195px;
+	margin:auto;
+}
+.invoice-box.ticket-box img {
+    max-width: inherit;
+    width: inherit;
+}
+#current_date {
+	text-align:center;
+}
+.signature {
+	background-color:#ededed;
+}
+.pickup {
+	background-color:#ccc;
+}
+.pickup td,
+.signature td {
+	padding-top:15px !important;
+	padding-bottom:15px !important;
+}
+/* 
+	POS Invoice CSS
+	Used for Repair Order
+	Ends
+*/
+
+
+.grid-container {
+	max-width:1200px;
+	margin-left:0px;
+	padding-left:0px;
+}
+.tofw_small_select {
+	max-width:125px !important;
+	margin-bottom:0px !important;
+}
+.select2-container {
+	margin-bottom:1rem !important;
+}
+.select2-container .select2-selection--single {
+	height:38px !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height:38px !important;  
+}
+.column-id {
+	width:75px !important;
+	text-align:left !important;
+}
+.column-jobs {
+	width:75px !important;
+	text-align:right !important;
+}
+.select2-container {
+	max-width:100%;
+}
+#brand_typediv .tabs::before,
+#brand_typediv .tabs::after,
+#service_typediv .tabs::before, 
+#service_typediv .tabs::after {
+	display:none;
+}
+#brand_typediv .tabs-panel,
+#service_typediv .tabs-panel {
+	display:block;
+}

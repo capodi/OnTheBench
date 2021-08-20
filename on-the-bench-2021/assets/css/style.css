@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tofw-product { 
+	background-color:#F8F0F1;
+	padding:5px;
+	margin-bottom:12px;
+}
+.tofw-product img {
+	width:100%;
+	height:auto;
+}
+.tofw-product .tofw-product-title {
+	font-size:18px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding:15px 20px;
+}
+.tofw_order_status_form {
+	text-align:center;
+	margin:auto;
+	max-width:650px !important;
+}
+.tofw_order_status_form input[type=text] {
+	margin-bottom:25px;
+	padding:25px;
+	text-align:center;
+}
+.form-message {
+	margin-top:25px;
+}
+.form-message .callout.success {
+    background-color: #e1faea;
+    color: #0a0a0a;
+}
+.form-message .callout {
+    position: relative;
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+    border: 1px solid rgba(10,10,10,.25);
+    border-radius: 0;
+    background-color: #fff;
+    color: #0a0a0a;
+}
+.form-message input {
+    padding: 0px !important;
+    background: none !important;
+    display: inline;
+    border: 0px !important;
+    display: paragraph !important;
+	margin: 0px !important;
+}
+.tofw_order_status_form form input[type=text]:focus {
+	border:2px solid #0a0a0a !important;
+}
+.form-message .delme {
+	display:none;
+}
+.invoice_totals {
+    margin-bottom: 25px;
+}
+.myaccount.sidebar .widget h2 {
+    position: relative;
+    font-size: 20px;
+    padding: 16px 18px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #f7efef;
+	border-radius: 5px 5px 0px 0px;
+	background-color: #f2f2f2;
+}
+.myaccount.sidebar .widget-content {
+    padding: 18px;
+}
+.myaccount.sidebar .widget ul {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.myaccount.sidebar .widget ul li {
+	border-bottom: 1px solid #ededed;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+.myaccount.sidebar .widget ul li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.myaccount.sidebar .widget ul li:first-child {
+    padding-top: 0px;
+}
+.myaccount.sidebar .widget ul li:last-child {
+    margin-bottom: 0px;
+    border-bottom: 0px;
+    padding-bottom: 0px;
+}
+.jobs_table_list {
+	margin-top:35px;
+}
+.startNewJob {
+    padding:40px;
+}
+.select2.select2-container {
+    width:100%;
+    display:block;
+}
+.startNewJob .addNewCustomer {
+    display:none;
+}
+.displayBlock {
+    display:block !important;
+}

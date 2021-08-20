@@ -1,0 +1,1952 @@
+# Copyright (C) 2020 mailchimp-for-wp
+# This file is distributed under the same license as the mailchimp-for-wp package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OTB WordPress Plugin - On The Bench\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: CapoDi Business Associates\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: activate.php:22
+msgid "New Order"
+msgstr ""
+
+#: activate.php:23
+msgid "Quote"
+msgstr ""
+
+#: activate.php:24
+msgid "Cancelled"
+msgstr ""
+
+#: activate.php:25
+msgid "In Process"
+msgstr ""
+
+#: activate.php:26
+msgid "In Service"
+msgstr ""
+
+#: activate.php:27
+msgid "Ready/Complete"
+msgstr ""
+
+#: activate.php:28
+msgid "Delivered"
+msgstr ""
+
+#: activate.php:71 lib/includes/reports/repair_order.php:57
+#: lib/includes/theme_functions.php:1230 lib/includes/tofw_jobs.php:888
+#: lib/snippets/Snippet Reporting via Invoice.php:70
+msgid "Customer"
+msgstr ""
+
+#: activate.php:81 lib/includes/theme_functions.php:1239
+msgid "Technician"
+msgstr ""
+
+#: activate.php:91 lib/includes/theme_functions.php:1233
+msgid "Shop Manager"
+msgstr ""
+
+#: activate.php:102 lib/includes/theme_functions.php:1236
+msgid "Shop Employee"
+msgstr ""
+
+#: admin_menu.php:8
+msgid "On The Bench"
+msgstr ""
+
+#: admin_menu.php:16 lib/includes/tofw_services.php:6
+#: lib/includes/tofw_services.php:7 lib/includes/tofw_services.php:18
+msgid "Services"
+msgstr ""
+
+#: admin_menu.php:19 lib/includes/tofw_products.php:6
+#: lib/includes/tofw_products.php:7
+msgid "Products"
+msgstr ""
+
+#: admin_menu.php:21 lib/includes/tofw_products.php:19
+msgid "Parts"
+msgstr ""
+
+#: admin_menu.php:24 lib/includes/tofw_locations.php:6
+#: lib/includes/tofw_locations.php:7 lib/includes/tofw_locations.php:18
+msgid "Locations"
+msgstr ""
+
+#: admin_menu.php:26 lib/includes/tofw_devices.php:6
+#: lib/includes/tofw_devices.php:7 lib/includes/tofw_devices.php:18
+msgid "Devices"
+msgstr ""
+
+#: admin_menu.php:28 lib/includes/tofw_clients.php:75
+#: lib/includes/tofw_clients.php:177 lib/includes/tofw_jobs.php:14
+#: lib/includes/tofw_jobs.php:15 lib/includes/tofw_jobs.php:26
+#: lib/includes/tofw_technicians.php:75 lib/includes/tofw_technicians.php:177
+msgid "Jobs"
+msgstr ""
+
+#: admin_menu.php:30
+msgid "Print Screen"
+msgstr ""
+
+#: admin_menu.php:32
+msgid "Clients"
+msgstr ""
+
+#: admin_menu.php:34
+msgid "Technicians"
+msgstr ""
+
+#: admin_menu.php:36
+msgid "Managers"
+msgstr ""
+
+#: admin_menu.php:39
+msgid "Employees"
+msgstr ""
+
+#: admin_menu.php:42
+msgid "Locations (v)"
+msgstr ""
+
+#: lib/includes/main_page.php:4 lib/includes/tofw_clients.php:4
+#: lib/includes/tofw_employees.php:4 lib/includes/tofw_managers.php:4
+#: lib/includes/tofw_print_functionality.php:4
+#: lib/includes/tofw_technicians.php:4
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: lib/includes/main_page.php:11
+msgid "On Our Bench"
+msgstr ""
+
+#: lib/includes/main_page.php:33 lib/includes/main_page.php:148
+msgid "Settings"
+msgstr ""
+
+#: lib/includes/main_page.php:38
+msgid "Taxes"
+msgstr ""
+
+#: lib/includes/main_page.php:43
+msgid "Job Status"
+msgstr ""
+
+#: lib/includes/main_page.php:155
+msgid "Menu Name e.g On The Bench"
+msgstr ""
+
+#: lib/includes/main_page.php:164
+msgid "Enter Menu Name Default On The Bench"
+msgstr ""
+
+#: lib/includes/main_page.php:170
+msgid "Logo to use"
+msgstr ""
+
+#: lib/includes/main_page.php:179
+msgid "Enter url of logo"
+msgstr ""
+
+#: lib/includes/main_page.php:185 lib/includes/theme_functions.php:1089
+#: lib/includes/theme_functions.php:1311 lib/includes/theme_functions.php:1433
+#: lib/includes/tofw_clients.php:63 lib/includes/tofw_clients.php:165
+#: lib/includes/tofw_employees.php:69 lib/includes/tofw_employees.php:159
+#: lib/includes/tofw_employees.php:258 lib/includes/tofw_managers.php:69
+#: lib/includes/tofw_managers.php:159 lib/includes/tofw_managers.php:258
+#: lib/includes/tofw_technicians.php:63 lib/includes/tofw_technicians.php:165
+#: lib/shortcodes/request_quote.php:40
+#: lib/shortcodes/start_job_by_device.php:100
+#: lib/shortcodes/start_job_by_location.php:100 lib/snippets/Snippet Reporting
+#: via Invoice.php:83
+msgid "Email"
+msgstr ""
+
+#: lib/includes/main_page.php:185
+msgid "Where quote forms and other admin emails would be sent."
+msgstr ""
+
+#: lib/includes/main_page.php:194
+msgid "Where to send emails like Quote and other stuff."
+msgstr ""
+
+#: lib/includes/main_page.php:200 lib/includes/tofw_jobs.php:225
+msgid "Email Customer"
+msgstr ""
+
+#: lib/includes/main_page.php:204
+msgid "Email customer everytime job status is changed"
+msgstr ""
+
+#: lib/includes/main_page.php:210
+msgid "Offer pickup and delivery?"
+msgstr ""
+
+#: lib/includes/main_page.php:219
+msgid "Pick up and delievery charges"
+msgstr ""
+
+#: lib/includes/main_page.php:228
+msgid "Enter the Pick up and delievery charges here"
+msgstr ""
+
+#: lib/includes/main_page.php:234
+msgid "Offer Warranty"
+msgstr ""
+
+#: lib/includes/main_page.php:243
+msgid "Warranty for One Day"
+msgstr ""
+
+#: lib/includes/main_page.php:252
+msgid "Enter the Warranty for One Day"
+msgstr ""
+
+#: lib/includes/main_page.php:258
+msgid "Warranty for One Week"
+msgstr ""
+
+#: lib/includes/main_page.php:267
+msgid "Enter the Warranty for One Week"
+msgstr ""
+
+#: lib/includes/main_page.php:273
+msgid "Currency"
+msgstr ""
+
+#: lib/includes/main_page.php:282
+msgid "Currency Symbol e.g $"
+msgstr ""
+
+#: lib/includes/main_page.php:288
+msgid "Terms & Conditions for Repair Order"
+msgstr ""
+
+#: lib/includes/main_page.php:297
+msgid "On Repair Order QR Code would be generated with this link."
+msgstr ""
+
+#: lib/includes/main_page.php:303
+msgid "Enable Taxes"
+msgstr ""
+
+#: lib/includes/main_page.php:312
+msgid "Primary Tax"
+msgstr ""
+
+#: lib/includes/main_page.php:316 lib/includes/theme_functions.php:442
+#: lib/includes/theme_functions.php:560 lib/includes/theme_functions.php:659
+#: lib/includes/theme_functions.php:771 lib/includes/theme_functions.php:836
+#: lib/includes/theme_functions.php:895 lib/includes/theme_functions.php:965
+#: lib/includes/theme_functions.php:1019
+msgid "Select tax"
+msgstr ""
+
+#: lib/includes/main_page.php:326
+msgid "Disable Parts and Use WooCommerce Products"
+msgstr ""
+
+#: lib/includes/main_page.php:332
+msgid "Please install and activate WooCommerce to use it. Otherwise you can rely on parts by our plugin."
+msgstr ""
+
+#: lib/includes/main_page.php:343
+msgid "Enable File Attachment in Job"
+msgstr ""
+
+#: lib/includes/main_page.php:356
+msgid "Save Changes"
+msgstr ""
+
+#: lib/includes/main_page.php:366
+msgid "Shortcodes"
+msgstr ""
+
+#: lib/includes/main_page.php:368
+msgid "To populate services create a page and insert shortcode"
+msgstr ""
+
+#: lib/includes/main_page.php:368 lib/includes/main_page.php:371
+#: lib/includes/main_page.php:373 lib/includes/main_page.php:375
+#: lib/includes/main_page.php:376 lib/includes/main_page.php:377
+#: lib/includes/main_page.php:378
+msgid "or use"
+msgstr ""
+
+#: lib/includes/main_page.php:368 lib/includes/main_page.php:371
+#: lib/includes/main_page.php:373 lib/includes/main_page.php:375
+#: lib/includes/main_page.php:376 lib/includes/main_page.php:377
+#: lib/includes/main_page.php:378
+msgid "in WordPress template"
+msgstr ""
+
+#: lib/includes/main_page.php:371
+msgid "To populate parts/products create a page and insert shortcode"
+msgstr ""
+
+#: lib/includes/main_page.php:373
+msgid "To add check case status form create a page and insert shortcode"
+msgstr ""
+
+#: lib/includes/main_page.php:375
+msgid "To add request quote form into front end use"
+msgstr ""
+
+#: lib/includes/main_page.php:376
+msgid "To add user account page into front end use"
+msgstr ""
+
+#: lib/includes/main_page.php:377
+msgid "To add start new job by device on front end for loged in users only"
+msgstr ""
+
+#: lib/includes/main_page.php:378
+msgid "To add start new job by location on front end for loged in users only"
+msgstr ""
+
+#: lib/includes/main_page.php:387
+msgid "Add New Tax"
+msgstr ""
+
+#: lib/includes/main_page.php:396 lib/includes/main_page.php:447
+#: lib/includes/theme_functions.php:2380 lib/includes/tofw_clients.php:57
+#: lib/includes/tofw_clients.php:159 lib/includes/tofw_employees.php:63
+#: lib/includes/tofw_employees.php:153 lib/includes/tofw_managers.php:63
+#: lib/includes/tofw_managers.php:153 lib/includes/tofw_technicians.php:57
+#: lib/includes/tofw_technicians.php:159
+msgid "ID"
+msgstr ""
+
+#: lib/includes/main_page.php:397 lib/includes/main_page.php:448
+#: lib/includes/tofw_clients.php:60 lib/includes/tofw_clients.php:162
+#: lib/includes/tofw_employees.php:66 lib/includes/tofw_employees.php:156
+#: lib/includes/tofw_jobs.php:449 lib/includes/tofw_jobs.php:492
+#: lib/includes/tofw_jobs.php:534 lib/includes/tofw_jobs.php:570
+#: lib/includes/tofw_managers.php:66 lib/includes/tofw_managers.php:156
+#: lib/includes/tofw_technicians.php:60 lib/includes/tofw_technicians.php:162
+msgid "Name"
+msgstr ""
+
+#: lib/includes/main_page.php:398 lib/includes/main_page.php:450
+#: lib/includes/theme_functions.php:1651
+msgid "Description"
+msgstr ""
+
+#: lib/includes/main_page.php:399
+msgid "Rate (%)"
+msgstr ""
+
+#: lib/includes/main_page.php:400 lib/includes/main_page.php:459
+#: lib/includes/theme_functions.php:1610 lib/includes/theme_functions.php:1658
+msgid "Status"
+msgstr ""
+
+#: lib/includes/main_page.php:401 lib/includes/main_page.php:460
+msgid "Actions"
+msgstr ""
+
+#: lib/includes/main_page.php:423 lib/includes/main_page.php:492
+msgid "Change Status"
+msgstr ""
+
+#: lib/includes/main_page.php:438
+msgid "Add New Status"
+msgstr ""
+
+#: lib/includes/main_page.php:449
+msgid "Slug"
+msgstr ""
+
+#: lib/includes/main_page.php:455
+msgid "Manage Woo Stock"
+msgstr ""
+
+#: lib/includes/main_page.php:493 lib/includes/tofw_clients.php:107
+#: lib/includes/tofw_employees.php:107 lib/includes/tofw_managers.php:107
+#: lib/includes/tofw_technicians.php:107
+msgid "Edit"
+msgstr ""
+
+#: lib/includes/main_page.php:560
+msgid "Settings saved!"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:40
+#: lib/includes/reports/repair_order.php:52 lib/snippets/Snippet Reporting via
+#: Invoice.php:65
+msgid "Order"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:41 lib/includes/tofw_jobs.php:268
+#: lib/includes/tofw_jobs.php:887
+msgid "Case Number"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:42
+msgid "Created"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:43 lib/includes/tofw_jobs.php:166
+#: lib/includes/tofw_jobs.php:897
+msgid "Payment Status"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:44
+#: lib/includes/theme_functions.php:2385 lib/includes/tofw_jobs.php:154
+#: lib/includes/tofw_jobs.php:894
+msgid "Order Status"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:78
+#: lib/includes/theme_functions.php:1136 lib/includes/theme_functions.php:1359
+#: lib/includes/tofw_clients.php:69 lib/includes/tofw_clients.php:171
+#: lib/includes/tofw_employees.php:75 lib/includes/tofw_employees.php:165
+#: lib/includes/tofw_employees.php:279 lib/includes/tofw_managers.php:75
+#: lib/includes/tofw_managers.php:165 lib/includes/tofw_managers.php:279
+#: lib/includes/tofw_technicians.php:69 lib/includes/tofw_technicians.php:171
+#: lib/shortcodes/request_quote.php:82
+#: lib/shortcodes/start_job_by_device.php:141
+#: lib/shortcodes/start_job_by_location.php:141 lib/snippets/Snippet Reporting
+#: via Invoice.php:88
+msgid "Address"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:88
+msgid "Location:"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:92
+msgid "ID/LCTN:"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:96
+msgid "Device:"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:100
+msgid "ID/IMEI:"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:123
+msgid "File Attachment"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:125
+msgid "Click to view"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:132
+msgid "Service/Repair Details"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:146
+msgid "Notes"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:251
+msgid "Service/Repair Total"
+msgstr ""
+
+#: lib/includes/reports/large_invoice.php:255
+#: lib/includes/reports/repair_label.php:47
+#: lib/includes/reports/repair_order.php:149
+msgid "Print"
+msgstr ""
+
+#: lib/includes/reports/load.php:3
+msgid "Something is wrong please check your url."
+msgstr ""
+
+#: lib/includes/reports/repair_label.php:33
+#: lib/includes/reports/repair_order.php:48
+#: lib/includes/theme_functions.php:2381 lib/snippets/Snippet Reporting via
+#: Invoice.php:61
+msgid "Case#"
+msgstr ""
+
+#: lib/includes/reports/repair_label.php:36
+msgid "Customer ID"
+msgstr ""
+
+#: lib/includes/reports/repair_label.php:40
+msgid "Device ID"
+msgstr ""
+
+#: lib/includes/reports/repair_label.php:48
+msgid "Print label to paste on device or parts for validation of claim."
+msgstr ""
+
+#: lib/includes/reports/repair_order.php:63 lib/includes/tofw_clients.php:66
+#: lib/includes/tofw_clients.php:168 lib/includes/tofw_employees.php:72
+#: lib/includes/tofw_employees.php:162 lib/includes/tofw_jobs.php:925
+#: lib/includes/tofw_managers.php:72 lib/includes/tofw_managers.php:162
+#: lib/includes/tofw_technicians.php:66 lib/includes/tofw_technicians.php:168
+#: lib/snippets/Snippet Reporting via Invoice.php:76
+msgid "Phone"
+msgstr ""
+
+#: lib/includes/reports/repair_order.php:89 lib/includes/tofw_devices.php:5
+#: lib/includes/tofw_jobs.php:383 lib/includes/tofw_jobs.php:890
+#: lib/shortcodes/start_job_by_device.php:61 lib/snippets/Snippet Reporting via
+#: Invoice.php:105
+msgid "Device"
+msgstr ""
+
+#: lib/includes/reports/repair_order.php:96 lib/includes/tofw_jobs.php:953
+#: lib/snippets/Snippet Reporting via Invoice.php:112
+msgid "ID/IMEI"
+msgstr ""
+
+#: lib/includes/reports/repair_order.php:102 lib/includes/tofw_services.php:110
+#: lib/snippets/Snippet Reporting via Invoice.php:118
+msgid "Cost"
+msgstr ""
+
+#: lib/includes/reports/repair_order.php:110 lib/snippets/Snippet Reporting via
+#: Invoice.php:126
+msgid "Problem"
+msgstr ""
+
+#: lib/includes/reports/repair_order.php:120 lib/snippets/Snippet Reporting via
+#: Invoice.php:136
+msgid "Scan to read policy"
+msgstr ""
+
+#: lib/includes/reports/repair_order.php:126 lib/snippets/Snippet Reporting via
+#: Invoice.php:142
+msgid "Scan for Terms and Conditions"
+msgstr ""
+
+#: lib/includes/reports/repair_order.php:130 lib/snippets/Snippet Reporting via
+#: Invoice.php:146
+msgid "I agree to the terms and conditions."
+msgstr ""
+
+#: lib/includes/reports/repair_order.php:135 lib/snippets/Snippet Reporting via
+#: Invoice.php:151
+msgid "Signature"
+msgstr ""
+
+#: lib/includes/reports/repair_order.php:140 lib/snippets/Snippet Reporting via
+#: Invoice.php:156
+msgid "Picked Up"
+msgstr ""
+
+#: lib/includes/reports/repair_order.php:146
+msgid "Thank You for your trust!"
+msgstr ""
+
+#: lib/includes/theme_functions.php:68
+msgid "Tax name required"
+msgstr ""
+
+#: lib/includes/theme_functions.php:70
+msgid "Tax rate is empty or not number"
+msgstr ""
+
+#: lib/includes/theme_functions.php:80
+msgid "You have added tax rate."
+msgstr ""
+
+#: lib/includes/theme_functions.php:83 lib/includes/theme_functions.php:155
+msgid "Invalid Form"
+msgstr ""
+
+#: lib/includes/theme_functions.php:122
+msgid "Name required"
+msgstr ""
+
+#: lib/includes/theme_functions.php:124
+msgid "Slug is required"
+msgstr ""
+
+#: lib/includes/theme_functions.php:140
+msgid "You have updated status."
+msgstr ""
+
+#: lib/includes/theme_functions.php:151
+msgid "You have added status."
+msgstr ""
+
+#: lib/includes/theme_functions.php:196
+msgid "Tax status updated!"
+msgstr ""
+
+#: lib/includes/theme_functions.php:218
+msgid "Job status updated!"
+msgstr ""
+
+#: lib/includes/theme_functions.php:239
+msgid "Now products would automatically deduct with this status from WOO inventory balance.!"
+msgstr ""
+
+#: lib/includes/theme_functions.php:245 lib/includes/theme_functions.php:283
+msgid "Record updated!"
+msgstr ""
+
+#: lib/includes/theme_functions.php:286
+msgid "Order Id or Order Status missing!"
+msgstr ""
+
+#: lib/includes/theme_functions.php:323
+msgid "Duplicate User"
+msgstr ""
+
+#: lib/includes/theme_functions.php:325 lib/shortcodes/request_quote.php:162
+#: lib/shortcodes/start_job_by_device.php:218
+#: lib/shortcodes/start_job_by_location.php:220
+msgid "Not a valid username"
+msgstr ""
+
+#: lib/includes/theme_functions.php:327 lib/shortcodes/request_quote.php:165
+#: lib/shortcodes/start_job_by_device.php:221
+#: lib/shortcodes/start_job_by_location.php:223
+msgid "Email is not valid"
+msgstr ""
+
+#: lib/includes/theme_functions.php:329
+msgid "Email already in user. Try resetting password if its your Email."
+msgstr ""
+
+#: lib/includes/theme_functions.php:348 lib/shortcodes/request_quote.php:192
+#: lib/shortcodes/start_job_by_device.php:248
+#: lib/shortcodes/start_job_by_location.php:250
+msgid "User account is created logins sent to email."
+msgstr ""
+
+#: lib/includes/theme_functions.php:734 lib/includes/theme_functions.php:1011
+msgid "Extra name here..."
+msgstr ""
+
+#: lib/includes/theme_functions.php:811 lib/includes/theme_functions.php:1002
+msgid "No ID selected"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1051
+msgid "Add a new customer"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1059 lib/includes/theme_functions.php:1281
+#: lib/includes/theme_functions.php:1403 lib/includes/theme_functions.php:1618
+msgid "There are some errors in your form."
+msgstr ""
+
+#: lib/includes/theme_functions.php:1068 lib/includes/theme_functions.php:1290
+#: lib/includes/theme_functions.php:1412 lib/includes/tofw_employees.php:237
+#: lib/includes/tofw_managers.php:237 lib/shortcodes/request_quote.php:23
+#: lib/shortcodes/start_job_by_device.php:83
+#: lib/shortcodes/start_job_by_location.php:83
+msgid "First Name"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1072 lib/includes/theme_functions.php:1294
+#: lib/includes/theme_functions.php:1416 lib/includes/tofw_employees.php:241
+#: lib/includes/tofw_managers.php:241
+msgid "First Name Is Required."
+msgstr ""
+
+#: lib/includes/theme_functions.php:1078 lib/includes/theme_functions.php:1300
+#: lib/includes/theme_functions.php:1422 lib/includes/tofw_employees.php:247
+#: lib/includes/tofw_managers.php:247 lib/shortcodes/request_quote.php:30
+#: lib/shortcodes/start_job_by_device.php:90
+#: lib/shortcodes/start_job_by_location.php:90
+msgid "Last Name"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1093 lib/includes/theme_functions.php:1315
+#: lib/includes/theme_functions.php:1437 lib/includes/tofw_employees.php:262
+#: lib/includes/tofw_managers.php:262
+msgid "Email Is Required."
+msgstr ""
+
+#: lib/includes/theme_functions.php:1099 lib/includes/theme_functions.php:1321
+#: lib/includes/theme_functions.php:1443 lib/includes/tofw_employees.php:268
+#: lib/includes/tofw_managers.php:268
+msgid "Phone Number"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1111 lib/includes/theme_functions.php:1333
+#: lib/includes/theme_functions.php:1455 lib/includes/tofw_employees.php:288
+#: lib/includes/tofw_managers.php:288 lib/shortcodes/request_quote.php:58
+#: lib/shortcodes/start_job_by_device.php:117
+#: lib/shortcodes/start_job_by_location.php:117
+msgid "City"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1118 lib/includes/theme_functions.php:1340
+#: lib/includes/theme_functions.php:1462 lib/includes/tofw_employees.php:295
+#: lib/includes/tofw_managers.php:295 lib/shortcodes/request_quote.php:65
+#: lib/shortcodes/start_job_by_device.php:124
+#: lib/shortcodes/start_job_by_location.php:124
+msgid "Postal Code"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1129 lib/includes/theme_functions.php:1352
+#: lib/includes/tofw_clients.php:72 lib/includes/tofw_clients.php:174
+#: lib/includes/tofw_jobs.php:928 lib/includes/tofw_technicians.php:72
+#: lib/includes/tofw_technicians.php:174 lib/shortcodes/request_quote.php:75
+#: lib/shortcodes/start_job_by_device.php:134
+#: lib/shortcodes/start_job_by_location.php:134
+msgid "Company"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1146
+msgid "Add Customer"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1149 lib/includes/theme_functions.php:1374
+#: lib/includes/theme_functions.php:1478 lib/includes/theme_functions.php:1568
+#: lib/includes/theme_functions.php:1695 lib/includes/tofw_employees.php:314
+#: lib/includes/tofw_managers.php:314
+msgid "(*) fields are required"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1207
+msgid "User Updated!"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1274 lib/includes/theme_functions.php:1594
+msgid "Update"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1371
+msgid "Update "
+msgstr ""
+
+#: lib/includes/theme_functions.php:1395
+msgid "Add a new technician"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1475
+msgid "Add Technician"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1500
+msgid "Add new tax"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1517
+msgid "Tax Name"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1521
+msgid "Name of tax to recognize."
+msgstr ""
+
+#: lib/includes/theme_functions.php:1527
+msgid "Tax Description"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1538
+msgid "Tax Rate"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1542
+msgid "Only numbers like 15 for 15% , 0 for 0%, 25 for 25%."
+msgstr ""
+
+#: lib/includes/theme_functions.php:1548
+msgid "Tax Status"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1550 lib/includes/theme_functions.php:1660
+msgid "Active"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1551 lib/includes/theme_functions.php:1661
+msgid "Inactive"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1565
+msgid "Add Tax"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1588
+msgid "Add new"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1627
+msgid "Status Name"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1631
+msgid "Name the status to recognize."
+msgstr ""
+
+#: lib/includes/theme_functions.php:1637
+msgid "Status Slug"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1641
+msgid "Slug is required to recognize the status make sure to not change it."
+msgstr ""
+
+#: lib/includes/theme_functions.php:1671
+msgid "Status Email Message"
+msgstr ""
+
+#: lib/includes/theme_functions.php:1672
+msgid "This message would be sent when a job status is changed to this."
+msgstr ""
+
+#: lib/includes/theme_functions.php:1761 lib/includes/theme_functions.php:1849
+msgid "Sorry nothing to display!"
+msgstr ""
+
+#: lib/includes/theme_functions.php:2138
+msgid "Select Location"
+msgstr ""
+
+#: lib/includes/theme_functions.php:2214
+msgid "Select Device"
+msgstr ""
+
+#: lib/includes/theme_functions.php:2321
+msgid "You are not logged in."
+msgstr ""
+
+#: lib/includes/theme_functions.php:2326
+msgid "Requires a customer id."
+msgstr ""
+
+#: lib/includes/theme_functions.php:2382 lib/includes/tofw_jobs.php:891
+msgid "Assigned To"
+msgstr ""
+
+#: lib/includes/theme_functions.php:2383
+msgid "Order Date"
+msgstr ""
+
+#: lib/includes/theme_functions.php:2384 lib/includes/tofw_jobs.php:459
+#: lib/includes/tofw_jobs.php:503 lib/includes/tofw_jobs.php:544
+#: lib/includes/tofw_jobs.php:580
+msgid "Total"
+msgstr ""
+
+#: lib/includes/theme_functions.php:2386
+msgid "Payment"
+msgstr ""
+
+#: lib/includes/theme_functions.php:2387 lib/includes/theme_functions.php:2412
+msgid "View"
+msgstr ""
+
+#: lib/includes/theme_functions.php:2417
+msgid "No job found!"
+msgstr ""
+
+#: lib/includes/theme_functions.php:2600
+msgid "Your Job Status is Updated!"
+msgstr ""
+
+#: lib/includes/theme_functions.php:2604
+msgid "Your Job Status Is Updated."
+msgstr ""
+
+#: lib/includes/theme_functions.php:2608
+msgid "Your Job update is below if you have any questions please reach us."
+msgstr ""
+
+#: lib/includes/theme_functions.php:2731
+msgid "Upload File"
+msgstr ""
+
+#: lib/includes/theme_functions.php:2753
+msgid "Remove File"
+msgstr ""
+
+#: lib/includes/tofw_clients.php:9 lib/includes/tofw_employees.php:9
+#: lib/includes/tofw_managers.php:9 lib/includes/tofw_technicians.php:9
+msgid "You need a higher level of permission."
+msgstr ""
+
+#: lib/includes/tofw_clients.php:10 lib/includes/tofw_employees.php:10
+#: lib/includes/tofw_managers.php:10 lib/includes/tofw_technicians.php:10
+msgid "Sorry, you are not allowed to list users."
+msgstr ""
+
+#: lib/includes/tofw_clients.php:40
+msgid "Manage Clients"
+msgstr ""
+
+#: lib/includes/tofw_clients.php:43 lib/includes/tofw_employees.php:49
+#: lib/includes/tofw_managers.php:49 lib/includes/tofw_technicians.php:43
+msgid "Add New"
+msgstr ""
+
+#: lib/includes/tofw_clients.php:51 lib/includes/tofw_employees.php:57
+#: lib/includes/tofw_managers.php:57 lib/includes/tofw_technicians.php:51
+msgid "Display"
+msgstr ""
+
+#: lib/includes/tofw_clients.php:51 lib/includes/tofw_employees.php:57
+#: lib/includes/tofw_managers.php:57 lib/includes/tofw_technicians.php:51
+msgid "From Total"
+msgstr ""
+
+#: lib/includes/tofw_clients.php:51
+msgid "Clients."
+msgstr ""
+
+#: lib/includes/tofw_clients.php:112 lib/includes/tofw_employees.php:112
+#: lib/includes/tofw_managers.php:112 lib/includes/tofw_technicians.php:112
+msgid "View Jobs"
+msgstr ""
+
+#: lib/includes/tofw_clients.php:116 lib/includes/tofw_employees.php:116
+#: lib/includes/tofw_managers.php:116 lib/includes/tofw_technicians.php:116
+msgid "Show more details"
+msgstr ""
+
+#: lib/includes/tofw_clients.php:187 lib/includes/tofw_employees.php:175
+#: lib/includes/tofw_managers.php:175 lib/includes/tofw_technicians.php:187
+msgid "items"
+msgstr ""
+
+#: lib/includes/tofw_clients.php:206 lib/includes/tofw_employees.php:194
+#: lib/includes/tofw_managers.php:194 lib/includes/tofw_technicians.php:206
+msgid "of"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:4
+msgid "Add new device"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:8
+msgid "Edit Device"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:9
+msgid "New Device"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:10
+msgid "View Device"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:11
+msgid "Search Device"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:12
+msgid "No device found"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:13
+msgid "No device in trash"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:19
+msgid "Devices Section"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:42
+msgid "Device Brands"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:43 lib/includes/tofw_devices.php:52
+#: lib/includes/tofw_devices.php:56
+msgid "Device Brand"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:44
+msgid "Search Device Brands"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:45
+msgid "All Device Brands"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:46
+msgid "Parent Device Brand"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:47
+msgid "Parent Device Brand:"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:48
+msgid "Edit Device Brand"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:49
+msgid "Update Device Brand"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:50
+msgid "Add New Device Brand"
+msgstr ""
+
+#: lib/includes/tofw_devices.php:51 lib/includes/tofw_locations.php:51
+#: lib/includes/tofw_products.php:52
+msgid "New Brand Name"
+msgstr ""
+
+#: lib/includes/tofw_employees.php:42
+msgid "Manage Shop Employees"
+msgstr ""
+
+#: lib/includes/tofw_employees.php:46
+msgid "If you want to change employee's shop access please edit shop."
+msgstr ""
+
+#: lib/includes/tofw_employees.php:57
+msgid "Shop Employees."
+msgstr ""
+
+#: lib/includes/tofw_employees.php:220
+msgid "Add a new employee"
+msgstr ""
+
+#: lib/includes/tofw_employees.php:311
+msgid "Add Employee"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:12
+msgid "Add new Job"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:13
+msgid "Job"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:16
+msgid "Edit Job"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:17
+msgid "New Job"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:18
+msgid "View Job"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:19
+msgid "Search Job"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:20
+msgid "No Job found"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:21
+msgid "No Job in trash"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:27
+msgid "Jobs Section"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:55
+msgid "Order Information"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:63 lib/includes/tofw_jobs.php:417
+#: lib/shortcodes/request_quote.php:93
+#: lib/shortcodes/start_job_by_device.php:152
+#: lib/shortcodes/start_job_by_location.php:152
+msgid "Job Details"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:90
+msgid "Products Total"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:97
+msgid "Parts Total"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:103
+msgid "Services Total"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:108
+msgid "Extras Total"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:115
+msgid "Products Tax"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:124
+msgid "Parts Tax"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:130
+msgid "Services Tax"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:135
+msgid "Extras Tax"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:141
+msgid "Grand Total"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:168 lib/includes/tofw_jobs.php:675
+#: lib/includes/tofw_jobs.php:993 lib/includes/tofw_jobs.php:1128
+#: lib/includes/tofw_products.php:147 lib/includes/tofw_products.php:375
+#: lib/includes/tofw_services.php:138 lib/includes/tofw_services.php:270
+msgid "Warranty"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:169 lib/includes/tofw_jobs.php:676
+#: lib/includes/tofw_jobs.php:994 lib/includes/tofw_jobs.php:1129
+msgid "Pending"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:170 lib/includes/tofw_jobs.php:677
+#: lib/includes/tofw_jobs.php:995 lib/includes/tofw_jobs.php:1130
+msgid "Credit"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:171 lib/includes/tofw_jobs.php:678
+#: lib/includes/tofw_jobs.php:996 lib/includes/tofw_jobs.php:1131
+msgid "Paid"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:172 lib/includes/tofw_jobs.php:679
+#: lib/includes/tofw_jobs.php:997 lib/includes/tofw_jobs.php:1132
+msgid "Partially Paid"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:179
+msgid "Upload Files"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:189
+msgid "Order Notes:"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:197
+msgid "Job Contact:"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:203
+msgid "Job Cell:"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:219
+msgid "Print Repair Order"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:220
+msgid "Print Repair Label"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:224
+msgid "Print Order"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:282 lib/includes/tofw_jobs.php:892
+#: lib/shortcodes/start_job_by_device.php:40
+#: lib/shortcodes/start_job_by_location.php:40
+msgid "Delivery Date"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:296 lib/includes/tofw_jobs.php:302
+#: lib/shortcodes/start_job_by_device.php:48
+#: lib/shortcodes/start_job_by_device.php:49
+#: lib/shortcodes/start_job_by_location.php:48
+#: lib/shortcodes/start_job_by_location.php:49
+msgid "Select Customer"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:310 lib/shortcodes/start_job_by_device.php:51
+#: lib/shortcodes/start_job_by_location.php:51
+msgid "Select customer if does not exist!"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:310 lib/shortcodes/start_job_by_device.php:51
+#: lib/shortcodes/start_job_by_location.php:51
+msgid "Add New Customer"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:317 lib/includes/tofw_jobs.php:330
+msgid "Select Technician"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:332
+msgid "Select technician if does not exist!"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:332
+msgid "Add New Technician"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:346 lib/includes/tofw_jobs.php:889
+#: lib/includes/tofw_locations.php:5
+#: lib/shortcodes/start_job_by_location.php:61
+msgid "Location"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:362 lib/shortcodes/start_job_by_location.php:71
+msgid "Location ID/LCTN"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:399 lib/shortcodes/start_job_by_device.php:71
+msgid "Device ID/IMEI"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:421
+msgid "Enter details about job."
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:434
+msgid "Select Products"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:438
+msgid "Search product ..."
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:441
+msgid "Add Product"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:450
+msgid "SKU"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:451 lib/includes/tofw_jobs.php:495
+#: lib/includes/tofw_jobs.php:536 lib/includes/tofw_jobs.php:572
+msgid "Qty"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:452 lib/includes/tofw_jobs.php:496
+#: lib/includes/tofw_jobs.php:537 lib/includes/tofw_jobs.php:573
+#: lib/includes/tofw_products.php:120 lib/includes/tofw_products.php:226
+#: lib/includes/tofw_products.php:365
+msgid "Price"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:455 lib/includes/tofw_jobs.php:456
+#: lib/includes/tofw_jobs.php:499 lib/includes/tofw_jobs.php:500
+#: lib/includes/tofw_jobs.php:540 lib/includes/tofw_jobs.php:541
+#: lib/includes/tofw_jobs.php:576 lib/includes/tofw_jobs.php:577
+msgid "Tax"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:474
+msgid "Selected Parts"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:476
+msgid "Select Parts"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:483
+msgid "Add Part"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:493 lib/includes/tofw_jobs.php:571
+msgid "Code"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:494 lib/includes/tofw_products.php:114
+#: lib/includes/tofw_products.php:225 lib/includes/tofw_products.php:361
+msgid "Capacity"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:515
+msgid "Select Services"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:524
+msgid "Add Service"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:535 lib/includes/tofw_services.php:98
+#: lib/includes/tofw_services.php:264 lib/includes/tofw_services.php:288
+msgid "Service Code"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:554
+msgid "Other Items "
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:560
+msgid "Add Field"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:886
+msgid "Order ID"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:893
+msgid "Order Total"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:895
+msgid "Job Contact"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:896
+msgid "Job SMS"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:941
+msgid "ID/LCTN"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:1108
+msgid "Job Status (All)"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:1140
+msgid "Payment Status (All)"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:1153
+msgid "Customer (All)"
+msgstr ""
+
+#: lib/includes/tofw_jobs.php:1161
+msgid "Technician (All)"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:4
+msgid "Add new location"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:8
+msgid "Edit Location"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:9
+msgid "New Location"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:10
+msgid "View Location"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:11
+msgid "Search Location"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:12
+msgid "No location found"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:13
+msgid "No location in trash"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:19
+msgid "Locations Section"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:42
+msgid "Location Brands"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:43 lib/includes/tofw_locations.php:52
+#: lib/includes/tofw_locations.php:56
+msgid "Location Brand"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:44
+msgid "Search Location Brands"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:45
+msgid "All Location Brands"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:46
+msgid "Parent Location Brand"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:47
+msgid "Parent Location Brand:"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:48
+msgid "Edit Location Brand"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:49
+msgid "Update Location Brand"
+msgstr ""
+
+#: lib/includes/tofw_locations.php:50
+msgid "Add New Location Brand"
+msgstr ""
+
+#: lib/includes/tofw_managers.php:42
+msgid "Manage Shop Managers"
+msgstr ""
+
+#: lib/includes/tofw_managers.php:46
+msgid "If you want to change manager's shop access please edit shop."
+msgstr ""
+
+#: lib/includes/tofw_managers.php:57
+msgid "Shop Managers."
+msgstr ""
+
+#: lib/includes/tofw_managers.php:220
+msgid "Add a new Manager"
+msgstr ""
+
+#: lib/includes/tofw_managers.php:311
+msgid "Add Manager"
+msgstr ""
+
+#: lib/includes/tofw_print_functionality.php:11
+msgid "The email have been sent to the customer."
+msgstr ""
+
+#: lib/includes/tofw_products.php:4
+msgid "Add new Product"
+msgstr ""
+
+#: lib/includes/tofw_products.php:5
+msgid "Product"
+msgstr ""
+
+#: lib/includes/tofw_products.php:8
+msgid "Edit Product"
+msgstr ""
+
+#: lib/includes/tofw_products.php:9
+msgid "New Product"
+msgstr ""
+
+#: lib/includes/tofw_products.php:10
+msgid "View Product"
+msgstr ""
+
+#: lib/includes/tofw_products.php:11
+msgid "Search Products"
+msgstr ""
+
+#: lib/includes/tofw_products.php:12
+msgid "No product found"
+msgstr ""
+
+#: lib/includes/tofw_products.php:13
+msgid "No product in trash"
+msgstr ""
+
+#: lib/includes/tofw_products.php:20
+msgid "Parts Section"
+msgstr ""
+
+#: lib/includes/tofw_products.php:43
+msgid "Brands"
+msgstr ""
+
+#: lib/includes/tofw_products.php:44 lib/includes/tofw_products.php:53
+#: lib/includes/tofw_products.php:57 lib/includes/tofw_products.php:379
+msgid "Brand"
+msgstr ""
+
+#: lib/includes/tofw_products.php:45
+msgid "Search Brands"
+msgstr ""
+
+#: lib/includes/tofw_products.php:46
+msgid "All Brands"
+msgstr ""
+
+#: lib/includes/tofw_products.php:47
+msgid "Parent Brand"
+msgstr ""
+
+#: lib/includes/tofw_products.php:48
+msgid "Parent Brand:"
+msgstr ""
+
+#: lib/includes/tofw_products.php:49
+msgid "Edit Brand"
+msgstr ""
+
+#: lib/includes/tofw_products.php:50
+msgid "Update Brand"
+msgstr ""
+
+#: lib/includes/tofw_products.php:51
+msgid "Add New Brand"
+msgstr ""
+
+#: lib/includes/tofw_products.php:96 lib/includes/tofw_products.php:349
+msgid "Manufacturing Code"
+msgstr ""
+
+#: lib/includes/tofw_products.php:102 lib/includes/tofw_products.php:224
+#: lib/includes/tofw_products.php:353
+msgid "Stock Code"
+msgstr ""
+
+#: lib/includes/tofw_products.php:108 lib/includes/tofw_products.php:357
+msgid "Core Features"
+msgstr ""
+
+#: lib/includes/tofw_products.php:122
+msgid "Numbers only"
+msgstr ""
+
+#: lib/includes/tofw_products.php:136 lib/includes/tofw_services.php:127
+msgid "Select Service Tax"
+msgstr ""
+
+#: lib/includes/tofw_products.php:138 lib/includes/tofw_services.php:129
+msgid "Select tax for service"
+msgstr ""
+
+#: lib/includes/tofw_products.php:155 lib/includes/tofw_products.php:370
+msgid "Installation Charges"
+msgstr ""
+
+#: lib/includes/tofw_products.php:157 lib/includes/tofw_products.php:164
+msgid "Leave blank to hide"
+msgstr ""
+
+#: lib/includes/tofw_products.php:162
+msgid "Installation Message"
+msgstr ""
+
+#: lib/includes/tofw_products.php:223
+msgid "Part Name"
+msgstr ""
+
+#: lib/includes/tofw_products.php:227 lib/includes/tofw_services.php:291
+msgid "Wrranty"
+msgstr ""
+
+#: lib/includes/tofw_products.php:345
+msgid "Product Description"
+msgstr ""
+
+#: lib/includes/tofw_products.php:348
+msgid "Product Details"
+msgstr ""
+
+#: lib/includes/tofw_services.php:4
+msgid "Add new Service"
+msgstr ""
+
+#: lib/includes/tofw_services.php:5
+msgid "Service"
+msgstr ""
+
+#: lib/includes/tofw_services.php:8
+msgid "Edit Service"
+msgstr ""
+
+#: lib/includes/tofw_services.php:9
+msgid "New Service"
+msgstr ""
+
+#: lib/includes/tofw_services.php:10
+msgid "View Service"
+msgstr ""
+
+#: lib/includes/tofw_services.php:11
+msgid "Search Services"
+msgstr ""
+
+#: lib/includes/tofw_services.php:12
+msgid "No service found"
+msgstr ""
+
+#: lib/includes/tofw_services.php:13
+msgid "No service in trash"
+msgstr ""
+
+#: lib/includes/tofw_services.php:19
+msgid "Services Section"
+msgstr ""
+
+#: lib/includes/tofw_services.php:43
+msgid "Service Types"
+msgstr ""
+
+#: lib/includes/tofw_services.php:44 lib/includes/tofw_services.php:53
+#: lib/includes/tofw_services.php:57 lib/includes/tofw_services.php:267
+msgid "Service Type"
+msgstr ""
+
+#: lib/includes/tofw_services.php:45
+msgid "Search Service Types"
+msgstr ""
+
+#: lib/includes/tofw_services.php:46
+msgid "All Service Types"
+msgstr ""
+
+#: lib/includes/tofw_services.php:47
+msgid "Parent Type"
+msgstr ""
+
+#: lib/includes/tofw_services.php:48
+msgid "Parent Type:"
+msgstr ""
+
+#: lib/includes/tofw_services.php:49
+msgid "Edit Service Type"
+msgstr ""
+
+#: lib/includes/tofw_services.php:50
+msgid "Update Service Type"
+msgstr ""
+
+#: lib/includes/tofw_services.php:51
+msgid "Add New Service Type"
+msgstr ""
+
+#: lib/includes/tofw_services.php:52
+msgid "New Service Type Name"
+msgstr ""
+
+#: lib/includes/tofw_services.php:104 lib/includes/tofw_services.php:261
+#: lib/includes/tofw_services.php:289
+msgid "Time Required"
+msgstr ""
+
+#: lib/includes/tofw_services.php:150
+msgid "Pick Up & Delivery Available"
+msgstr ""
+
+#: lib/includes/tofw_services.php:163
+msgid "Warranty Period Availability"
+msgstr ""
+
+#: lib/includes/tofw_services.php:223
+msgid "Service Description"
+msgstr ""
+
+#: lib/includes/tofw_services.php:225
+msgid "Service Details"
+msgstr ""
+
+#: lib/includes/tofw_services.php:230
+msgid "Pickup and delivery"
+msgstr ""
+
+#: lib/includes/tofw_services.php:231 lib/includes/tofw_services.php:250
+msgid "Yes"
+msgstr ""
+
+#: lib/includes/tofw_services.php:233
+msgid "Pick and delivery charges"
+msgstr ""
+
+#: lib/includes/tofw_services.php:249
+msgid "Warranty Period Service"
+msgstr ""
+
+#: lib/includes/tofw_services.php:251
+msgid "For One Day"
+msgstr ""
+
+#: lib/includes/tofw_services.php:253
+msgid "For one week"
+msgstr ""
+
+#: lib/includes/tofw_services.php:258
+msgid "Service Price"
+msgstr ""
+
+#: lib/includes/tofw_services.php:287
+msgid "Service Name"
+msgstr ""
+
+#: lib/includes/tofw_services.php:290
+msgid "Service Cost"
+msgstr ""
+
+#: lib/includes/tofw_shops.php:4 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:4
+msgid "Add new shop"
+msgstr ""
+
+#: lib/includes/tofw_shops.php:5 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:5
+msgid "Shop"
+msgstr ""
+
+#: lib/includes/tofw_shops.php:6 lib/includes/tofw_shops.php:7
+#: lib/includes/tofw_shops.php:18 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:6 otb_Shop.php:7 otb_Shop.php:18
+msgid "Shops"
+msgstr ""
+
+#: lib/includes/tofw_shops.php:8 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:8
+msgid "Edit shop"
+msgstr ""
+
+#: lib/includes/tofw_shops.php:9 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:9
+msgid "New shop"
+msgstr ""
+
+#: lib/includes/tofw_shops.php:10 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:10
+msgid "View shop"
+msgstr ""
+
+#: lib/includes/tofw_shops.php:11 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:11
+msgid "Search shop"
+msgstr ""
+
+#: lib/includes/tofw_shops.php:12 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:12
+msgid "No shop Related to your search"
+msgstr ""
+
+#: lib/includes/tofw_shops.php:13 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:13
+msgid "No shop in trash"
+msgstr ""
+
+#: lib/includes/tofw_shops.php:19 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:19
+msgid "Every shop have its own manager who have access to all jobs, technicians, clients of that shop. While admin can view all shops and its data."
+msgstr ""
+
+#: lib/includes/tofw_technicians.php:40
+msgid "Manage Technicians"
+msgstr ""
+
+#: lib/includes/tofw_technicians.php:51
+msgid "Technicians."
+msgstr ""
+
+#: lib/shortcodes/list_products.php:32 lib/shortcodes/list_services.php:34
+msgid "Sorry, no product matched your criteria."
+msgstr ""
+
+#: lib/shortcodes/my_account.php:24
+msgid "Login Below!"
+msgstr ""
+
+#: lib/shortcodes/my_account.php:28
+msgid "Lost Password"
+msgstr ""
+
+#: lib/shortcodes/my_account.php:45
+msgid "Account Links"
+msgstr ""
+
+#: lib/shortcodes/my_account.php:51
+msgid "Dashboard"
+msgstr ""
+
+#: lib/shortcodes/my_account.php:57
+msgid "Request Quote"
+msgstr ""
+
+#: lib/shortcodes/my_account.php:62
+msgid "Edit Profile"
+msgstr ""
+
+#: lib/shortcodes/my_account.php:67
+msgid "Logout"
+msgstr ""
+
+#: lib/shortcodes/my_account.php:87
+msgid "You do not have permission to view this record."
+msgstr ""
+
+#: lib/shortcodes/my_account.php:94
+msgid "Welcom"
+msgstr ""
+
+#: lib/shortcodes/my_account.php:95
+msgid "Here you can check your jobs and their statuses also you can request new quote."
+msgstr ""
+
+#: lib/shortcodes/my_account.php:96
+msgid "Filter Jobs"
+msgstr ""
+
+#: lib/shortcodes/order_status.php:10
+msgid "Service/Repair Status"
+msgstr ""
+
+#: lib/shortcodes/order_status.php:11
+msgid "Please Enter Your Ticket Number"
+msgstr ""
+
+#: lib/shortcodes/order_status.php:14
+msgid "Ticket Number..."
+msgstr ""
+
+#: lib/shortcodes/order_status.php:16
+msgid "Review Status"
+msgstr ""
+
+#: lib/shortcodes/order_status.php:32 lib/shortcodes/request_quote.php:125
+#: lib/shortcodes/start_job_by_device.php:181
+#: lib/shortcodes/start_job_by_location.php:183
+msgid "Something is wrong with your submission!"
+msgstr ""
+
+#: lib/shortcodes/order_status.php:59
+msgid "We haven't found any job with your given ticket number!"
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:14
+msgid "Request a quote now!"
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:15
+msgid "Fill in the form below to get your quote."
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:47
+#: lib/shortcodes/start_job_by_device.php:107
+#: lib/shortcodes/start_job_by_location.php:107
+msgid "Phone number"
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:104
+msgid "Request Quote!"
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:108
+msgid "Required fields cannot be left empty."
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:132
+#: lib/shortcodes/start_job_by_device.php:188
+#: lib/shortcodes/start_job_by_location.php:190
+msgid "Unknown form."
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:150
+#: lib/shortcodes/start_job_by_device.php:206
+#: lib/shortcodes/start_job_by_location.php:208
+msgid "Email is not valid."
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:153
+#: lib/shortcodes/start_job_by_device.php:209
+#: lib/shortcodes/start_job_by_location.php:211
+msgid "First name required."
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:156 lib/shortcodes/request_quote.php:223
+#: lib/shortcodes/start_job_by_device.php:212
+#: lib/shortcodes/start_job_by_location.php:214
+msgid "Please enter job details."
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:159
+#: lib/shortcodes/start_job_by_device.php:215
+#: lib/shortcodes/start_job_by_location.php:217
+msgid "Duplicate User. Please login to submit your quote request."
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:168
+msgid "Email already in user. Try resetting password if its your Email. Then login to submit your quote request."
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:258
+msgid "We have received your quote request we would get back to you asap! Thanks."
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:261
+#: lib/shortcodes/start_job_by_device.php:340
+#: lib/shortcodes/start_job_by_location.php:343
+msgid "Your case is already registered with us."
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:272
+msgid "New quote request"
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:276
+msgid "You have received a quote request."
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:277
+msgid "First Name: ."
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:278
+msgid "Last Name: ."
+msgstr ""
+
+#: lib/shortcodes/request_quote.php:279
+msgid "Job Details: ."
+msgstr ""
+
+#: lib/shortcodes/start_job_by_device.php:29
+#: lib/shortcodes/start_job_by_location.php:29
+msgid "Start a Job"
+msgstr ""
+
+#: lib/shortcodes/start_job_by_device.php:33
+#: lib/shortcodes/start_job_by_location.php:33
+msgid "Start a New Job"
+msgstr ""
+
+#: lib/shortcodes/start_job_by_device.php:159
+#: lib/shortcodes/start_job_by_location.php:159
+msgid "Create Job"
+msgstr ""
+
+#: lib/shortcodes/start_job_by_device.php:224
+#: lib/shortcodes/start_job_by_location.php:226
+msgid "Email already exists in customers, please use different email or search customer above."
+msgstr ""
+
+#: lib/shortcodes/start_job_by_device.php:266
+#: lib/shortcodes/start_job_by_location.php:268
+msgid "Please select a customer or add new customer."
+msgstr ""
+
+#: lib/shortcodes/start_job_by_device.php:276
+#: lib/shortcodes/start_job_by_location.php:278
+msgid "Invalid Customer."
+msgstr ""
+
+#: lib/shortcodes/start_job_by_device.php:282
+msgid "Please select device."
+msgstr ""
+
+#: lib/shortcodes/start_job_by_device.php:287
+#: lib/shortcodes/start_job_by_location.php:290
+msgid "Please add job details."
+msgstr ""
+
+#: lib/shortcodes/start_job_by_device.php:292
+#: lib/shortcodes/start_job_by_location.php:295
+msgid "Please add delivery date."
+msgstr ""
+
+#: lib/shortcodes/start_job_by_device.php:337
+#: lib/shortcodes/start_job_by_location.php:340
+msgid "A new case have been registered with Case# "
+msgstr ""
+
+#: lib/shortcodes/start_job_by_location.php:284
+msgid "Please select location."
+msgstr ""
+
+#: lib/snippets/Snippet Reporting via Invoice.php:162
+msgid "Thanks for your business!"
+msgstr ""

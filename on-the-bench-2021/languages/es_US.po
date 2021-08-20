@@ -1,0 +1,2368 @@
+# Copyright (C) 2020 mailchimp-for-wp
+# This file is distributed under the same license as the mailchimp-for-wp package.
+msgid ""
+msgstr ""
+"Project-Id-Version: OTB WordPress Plugin - On The Bench\n"
+"POT-Creation-Date: 2021-08-17 08:07-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: CapoDi Business Associates <rcapodi@theoldfashionway.com>\n"
+"Language-Team: CapoDi Business Associates\n"
+"Language: es_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: activate.php:22
+#, fuzzy
+msgid "New Order"
+msgstr "Nuevo orden"
+
+#: activate.php:23
+msgid "Quote"
+msgstr "Citar"
+
+#: activate.php:24
+#, fuzzy
+msgid "Cancelled"
+msgstr "anulado"
+
+#: activate.php:25
+#, fuzzy
+msgid "In Process"
+msgstr "En proceso"
+
+#: activate.php:26
+#, fuzzy
+msgid "In Service"
+msgstr "Tipo de servicio"
+
+#: activate.php:27
+#, fuzzy
+msgid "Ready/Complete"
+msgstr "Listo/Completo"
+
+#: activate.php:28
+#, fuzzy
+msgid "Delivered"
+msgstr "Entregado"
+
+#: activate.php:71 lib/includes/reports/repair_order.php:57
+#: lib/includes/theme_functions.php:1230 lib/includes/tofw_jobs.php:888
+#: lib/snippets/Snippet Reporting via Invoice.php:70
+msgid "Customer"
+msgstr "Cliente"
+
+#: activate.php:81 lib/includes/theme_functions.php:1239
+#, fuzzy
+msgid "Technician"
+msgstr "Técnico"
+
+#: activate.php:91 lib/includes/theme_functions.php:1233
+#, fuzzy
+msgid "Shop Manager"
+msgstr "Gerente de tienda"
+
+#: activate.php:102 lib/includes/theme_functions.php:1236
+#, fuzzy
+msgid "Shop Employee"
+msgstr "Empleado de la tienda"
+
+#: admin_menu.php:8
+#, fuzzy
+msgid "On The Bench"
+msgstr "En el banquillo"
+
+#: admin_menu.php:16 lib/includes/tofw_services.php:6
+#: lib/includes/tofw_services.php:7 lib/includes/tofw_services.php:18
+#, fuzzy
+msgid "Services"
+msgstr "servicios"
+
+#: admin_menu.php:19 lib/includes/tofw_products.php:6
+#: lib/includes/tofw_products.php:7
+msgid "Products"
+msgstr "Productos"
+
+#: admin_menu.php:21 lib/includes/tofw_products.php:19
+#, fuzzy
+msgid "Parts"
+msgstr "Partes"
+
+#: admin_menu.php:24 lib/includes/tofw_locations.php:6
+#: lib/includes/tofw_locations.php:7 lib/includes/tofw_locations.php:18
+msgid "Locations"
+msgstr "Ubicaciones"
+
+#: admin_menu.php:26 lib/includes/tofw_devices.php:6
+#: lib/includes/tofw_devices.php:7 lib/includes/tofw_devices.php:18
+#, fuzzy
+msgid "Devices"
+msgstr "Dispositivos"
+
+#: admin_menu.php:28 lib/includes/tofw_clients.php:75
+#: lib/includes/tofw_clients.php:177 lib/includes/tofw_jobs.php:14
+#: lib/includes/tofw_jobs.php:15 lib/includes/tofw_jobs.php:26
+#: lib/includes/tofw_technicians.php:75 lib/includes/tofw_technicians.php:177
+msgid "Jobs"
+msgstr "Empleos"
+
+#: admin_menu.php:30
+#, fuzzy
+msgid "Print Screen"
+msgstr "Impr Pant"
+
+#: admin_menu.php:32
+#, fuzzy
+msgid "Clients"
+msgstr "Clientes"
+
+#: admin_menu.php:34
+#, fuzzy
+msgid "Technicians"
+msgstr "Técnicos"
+
+#: admin_menu.php:36
+#, fuzzy
+msgid "Managers"
+msgstr "gerentes"
+
+#: admin_menu.php:39
+msgid "Employees"
+msgstr "Empleados"
+
+#: admin_menu.php:42
+#, fuzzy
+msgid "Locations (v)"
+msgstr "Lugares (v)"
+
+#: lib/includes/main_page.php:4 lib/includes/tofw_clients.php:4
+#: lib/includes/tofw_employees.php:4 lib/includes/tofw_managers.php:4
+#: lib/includes/tofw_print_functionality.php:4
+#: lib/includes/tofw_technicians.php:4
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tiene permisos suficientes para acceder a esta página."
+
+#: lib/includes/main_page.php:11
+#, fuzzy
+msgid "On Our Bench"
+msgstr "En nuestro banco"
+
+#: lib/includes/main_page.php:33 lib/includes/main_page.php:148
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: lib/includes/main_page.php:38
+#, fuzzy
+msgid "Taxes"
+msgstr "Impuestos"
+
+#: lib/includes/main_page.php:43
+msgid "Job Status"
+msgstr "Estatus del trabajO"
+
+#: lib/includes/main_page.php:155
+#, fuzzy
+msgid "Menu Name e.g On The Bench"
+msgstr "Nombre del menú, por ejemplo, en el banco"
+
+#: lib/includes/main_page.php:164
+#, fuzzy
+msgid "Enter Menu Name Default On The Bench"
+msgstr "Introduzca el nombre del menú por defecto en el banco"
+
+#: lib/includes/main_page.php:170
+#, fuzzy
+msgid "Logo to use"
+msgstr "Logotipo a utilizar"
+
+#: lib/includes/main_page.php:179
+#, fuzzy
+msgid "Enter url of logo"
+msgstr "Introduzca la url del logotipo"
+
+#: lib/includes/main_page.php:185 lib/includes/theme_functions.php:1089
+#: lib/includes/theme_functions.php:1311 lib/includes/theme_functions.php:1433
+#: lib/includes/tofw_clients.php:63 lib/includes/tofw_clients.php:165
+#: lib/includes/tofw_employees.php:69 lib/includes/tofw_employees.php:159
+#: lib/includes/tofw_employees.php:258 lib/includes/tofw_managers.php:69
+#: lib/includes/tofw_managers.php:159 lib/includes/tofw_managers.php:258
+#: lib/includes/tofw_technicians.php:63 lib/includes/tofw_technicians.php:165
+#: lib/shortcodes/request_quote.php:40
+#: lib/shortcodes/start_job_by_device.php:100
+#: lib/shortcodes/start_job_by_location.php:100 lib/snippets/Snippet Reporting
+#: via Invoice.php:83
+msgid "Email"
+msgstr "E-mail"
+
+#: lib/includes/main_page.php:185
+#, fuzzy
+msgid "Where quote forms and other admin emails would be sent."
+msgstr ""
+"Donde se enviarían formularios de cotización y otros correos electrónicos de "
+"administración."
+
+#: lib/includes/main_page.php:194
+#, fuzzy
+msgid "Where to send emails like Quote and other stuff."
+msgstr "Dónde enviar correos electrónicos como cotización y otras cosas."
+
+#: lib/includes/main_page.php:200 lib/includes/tofw_jobs.php:225
+#, fuzzy
+msgid "Email Customer"
+msgstr "Cliente de correo electrónico"
+
+#: lib/includes/main_page.php:204
+#, fuzzy
+msgid "Email customer everytime job status is changed"
+msgstr ""
+"Enviar un correo electrónico al cliente cada vez que se cambia el estado del "
+"trabajo"
+
+#: lib/includes/main_page.php:210
+#, fuzzy
+msgid "Offer pickup and delivery?"
+msgstr "¿Ofrecer recogida y entrega?"
+
+#: lib/includes/main_page.php:219
+#, fuzzy
+msgid "Pick up and delievery charges"
+msgstr "Cargos de recogida y delievery"
+
+#: lib/includes/main_page.php:228
+#, fuzzy
+msgid "Enter the Pick up and delievery charges here"
+msgstr "Ingrese los cargos de recogida y delievery aquí"
+
+#: lib/includes/main_page.php:234
+#, fuzzy
+msgid "Offer Warranty"
+msgstr "Ofrecer garantía"
+
+#: lib/includes/main_page.php:243
+#, fuzzy
+msgid "Warranty for One Day"
+msgstr "Garantía para un día"
+
+#: lib/includes/main_page.php:252
+#, fuzzy
+msgid "Enter the Warranty for One Day"
+msgstr "Ingrese la garantía para un día"
+
+#: lib/includes/main_page.php:258
+#, fuzzy
+msgid "Warranty for One Week"
+msgstr "Garantía por una semana"
+
+#: lib/includes/main_page.php:267
+#, fuzzy
+msgid "Enter the Warranty for One Week"
+msgstr "Ingrese la garantía por una semana"
+
+#: lib/includes/main_page.php:273
+msgid "Currency"
+msgstr "Moneda"
+
+#: lib/includes/main_page.php:282
+#, fuzzy
+msgid "Currency Symbol e.g $"
+msgstr "Símbolo de moneda, por ejemplo, $"
+
+#: lib/includes/main_page.php:288
+#, fuzzy
+msgid "Terms & Conditions for Repair Order"
+msgstr "Términos y condiciones para la orden de reparación"
+
+#: lib/includes/main_page.php:297
+#, fuzzy
+msgid "On Repair Order QR Code would be generated with this link."
+msgstr "On Repair Order QR Code se generaría con este enlace."
+
+#: lib/includes/main_page.php:303
+#, fuzzy
+msgid "Enable Taxes"
+msgstr "Habilitar impuestos"
+
+#: lib/includes/main_page.php:312
+#, fuzzy
+msgid "Primary Tax"
+msgstr "Impuesto primario"
+
+#: lib/includes/main_page.php:316 lib/includes/theme_functions.php:442
+#: lib/includes/theme_functions.php:560 lib/includes/theme_functions.php:659
+#: lib/includes/theme_functions.php:771 lib/includes/theme_functions.php:836
+#: lib/includes/theme_functions.php:895 lib/includes/theme_functions.php:965
+#: lib/includes/theme_functions.php:1019
+#, fuzzy
+msgid "Select tax"
+msgstr "Seleccionar impuestos"
+
+#: lib/includes/main_page.php:326
+#, fuzzy
+msgid "Disable Parts and Use WooCommerce Products"
+msgstr "Deshabilitar piezas y usar productos WooCommerce"
+
+#: lib/includes/main_page.php:332
+#, fuzzy
+msgid ""
+"Please install and activate WooCommerce to use it. Otherwise you can rely on "
+"parts by our plugin."
+msgstr ""
+"Por favor, instale y active WooCommerce para usarlo. De lo contrario, puede "
+"confiar en las partes de nuestro complemento."
+
+#: lib/includes/main_page.php:343
+#, fuzzy
+msgid "Enable File Attachment in Job"
+msgstr "Habilitar datos adjuntos de archivo en el trabajo"
+
+#: lib/includes/main_page.php:356
+msgid "Save Changes"
+msgstr "Guardar Cambios"
+
+#: lib/includes/main_page.php:366
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: lib/includes/main_page.php:368
+#, fuzzy
+msgid "To populate services create a page and insert shortcode"
+msgstr "Para rellenar los servicios, cree una página e inserte un shortcode"
+
+#: lib/includes/main_page.php:368 lib/includes/main_page.php:371
+#: lib/includes/main_page.php:373 lib/includes/main_page.php:375
+#: lib/includes/main_page.php:376 lib/includes/main_page.php:377
+#: lib/includes/main_page.php:378
+#, fuzzy
+msgid "or use"
+msgstr "o uso"
+
+#: lib/includes/main_page.php:368 lib/includes/main_page.php:371
+#: lib/includes/main_page.php:373 lib/includes/main_page.php:375
+#: lib/includes/main_page.php:376 lib/includes/main_page.php:377
+#: lib/includes/main_page.php:378
+#, fuzzy
+msgid "in WordPress template"
+msgstr "en la plantilla de WordPress"
+
+#: lib/includes/main_page.php:371
+#, fuzzy
+msgid "To populate parts/products create a page and insert shortcode"
+msgstr "Para rellenar piezas/productos, cree una página e inserte shortcode"
+
+#: lib/includes/main_page.php:373
+#, fuzzy
+msgid "To add check case status form create a page and insert shortcode"
+msgstr ""
+"Para agregar el formulario de estado de caso de verificación, cree una "
+"página e inserte shortcode"
+
+#: lib/includes/main_page.php:375
+#, fuzzy
+msgid "To add request quote form into front end use"
+msgstr ""
+"Para agregar el formulario de solicitud de presupuesto al uso front-end"
+
+#: lib/includes/main_page.php:376
+#, fuzzy
+msgid "To add user account page into front end use"
+msgstr "Para agregar la página de la cuenta de usuario al uso front-end"
+
+#: lib/includes/main_page.php:377
+#, fuzzy
+msgid "To add start new job by device on front end for loged in users only"
+msgstr ""
+"Para agregar iniciar nuevo trabajo por dispositivo en el front-end solo para "
+"usuarios que han iniciado sesión"
+
+#: lib/includes/main_page.php:378
+#, fuzzy
+msgid "To add start new job by location on front end for loged in users only"
+msgstr ""
+"Para agregar iniciar nuevo trabajo por dispositivo en el front-end solo para "
+"usuarios que han iniciado sesión"
+
+#: lib/includes/main_page.php:387
+#, fuzzy
+msgid "Add New Tax"
+msgstr "Agregar nuevo impuesto"
+
+#: lib/includes/main_page.php:396 lib/includes/main_page.php:447
+#: lib/includes/theme_functions.php:2380 lib/includes/tofw_clients.php:57
+#: lib/includes/tofw_clients.php:159 lib/includes/tofw_employees.php:63
+#: lib/includes/tofw_employees.php:153 lib/includes/tofw_managers.php:63
+#: lib/includes/tofw_managers.php:153 lib/includes/tofw_technicians.php:57
+#: lib/includes/tofw_technicians.php:159
+msgid "ID"
+msgstr "Id"
+
+#: lib/includes/main_page.php:397 lib/includes/main_page.php:448
+#: lib/includes/tofw_clients.php:60 lib/includes/tofw_clients.php:162
+#: lib/includes/tofw_employees.php:66 lib/includes/tofw_employees.php:156
+#: lib/includes/tofw_jobs.php:449 lib/includes/tofw_jobs.php:492
+#: lib/includes/tofw_jobs.php:534 lib/includes/tofw_jobs.php:570
+#: lib/includes/tofw_managers.php:66 lib/includes/tofw_managers.php:156
+#: lib/includes/tofw_technicians.php:60 lib/includes/tofw_technicians.php:162
+msgid "Name"
+msgstr "Nombre"
+
+#: lib/includes/main_page.php:398 lib/includes/main_page.php:450
+#: lib/includes/theme_functions.php:1651
+msgid "Description"
+msgstr "Descripción"
+
+#: lib/includes/main_page.php:399
+#, fuzzy
+msgid "Rate (%)"
+msgstr "Tasa (%)"
+
+#: lib/includes/main_page.php:400 lib/includes/main_page.php:459
+#: lib/includes/theme_functions.php:1610 lib/includes/theme_functions.php:1658
+msgid "Status"
+msgstr "Estado"
+
+#: lib/includes/main_page.php:401 lib/includes/main_page.php:460
+msgid "Actions"
+msgstr "Acciones"
+
+#: lib/includes/main_page.php:423 lib/includes/main_page.php:492
+#, fuzzy
+msgid "Change Status"
+msgstr "Cambiar estado"
+
+#: lib/includes/main_page.php:438
+#, fuzzy
+msgid "Add New Status"
+msgstr "Agregar nuevo estado"
+
+#: lib/includes/main_page.php:449
+msgid "Slug"
+msgstr "Slug"
+
+#: lib/includes/main_page.php:455
+#, fuzzy
+msgid "Manage Woo Stock"
+msgstr "Administrar woo stock"
+
+#: lib/includes/main_page.php:493 lib/includes/tofw_clients.php:107
+#: lib/includes/tofw_employees.php:107 lib/includes/tofw_managers.php:107
+#: lib/includes/tofw_technicians.php:107
+msgid "Edit"
+msgstr "Modificar"
+
+#: lib/includes/main_page.php:560
+#, fuzzy
+msgid "Settings saved!"
+msgstr "Ajustes guardados!"
+
+#: lib/includes/reports/large_invoice.php:40
+#: lib/includes/reports/repair_order.php:52 lib/snippets/Snippet Reporting via
+#: Invoice.php:65
+msgid "Order"
+msgstr "Pedido"
+
+#: lib/includes/reports/large_invoice.php:41 lib/includes/tofw_jobs.php:268
+#: lib/includes/tofw_jobs.php:887
+#, fuzzy
+msgid "Case Number"
+msgstr "Número de caso"
+
+#: lib/includes/reports/large_invoice.php:42
+#, fuzzy
+msgid "Created"
+msgstr "Creado"
+
+#: lib/includes/reports/large_invoice.php:43 lib/includes/tofw_jobs.php:166
+#: lib/includes/tofw_jobs.php:897
+msgid "Payment Status"
+msgstr "Estado del pago"
+
+#: lib/includes/reports/large_invoice.php:44
+#: lib/includes/theme_functions.php:2385 lib/includes/tofw_jobs.php:154
+#: lib/includes/tofw_jobs.php:894
+msgid "Order Status"
+msgstr "Estado del pedido"
+
+#: lib/includes/reports/large_invoice.php:78
+#: lib/includes/theme_functions.php:1136 lib/includes/theme_functions.php:1359
+#: lib/includes/tofw_clients.php:69 lib/includes/tofw_clients.php:171
+#: lib/includes/tofw_employees.php:75 lib/includes/tofw_employees.php:165
+#: lib/includes/tofw_employees.php:279 lib/includes/tofw_managers.php:75
+#: lib/includes/tofw_managers.php:165 lib/includes/tofw_managers.php:279
+#: lib/includes/tofw_technicians.php:69 lib/includes/tofw_technicians.php:171
+#: lib/shortcodes/request_quote.php:82
+#: lib/shortcodes/start_job_by_device.php:141
+#: lib/shortcodes/start_job_by_location.php:141 lib/snippets/Snippet Reporting
+#: via Invoice.php:88
+msgid "Address"
+msgstr "Direción"
+
+#: lib/includes/reports/large_invoice.php:88
+#, fuzzy
+#| msgid "Location"
+msgid "Location:"
+msgstr "Ubicación"
+
+#: lib/includes/reports/large_invoice.php:92
+#, fuzzy
+msgid "ID/LCTN:"
+msgstr "ID/LCTN:"
+
+#: lib/includes/reports/large_invoice.php:96
+#, fuzzy
+msgid "Device:"
+msgstr "Dispositivo"
+
+#: lib/includes/reports/large_invoice.php:100
+#, fuzzy
+msgid "ID/IMEI:"
+msgstr "ID/IMEI:"
+
+#: lib/includes/reports/large_invoice.php:123
+#, fuzzy
+msgid "File Attachment"
+msgstr "Archivo adjunto"
+
+#: lib/includes/reports/large_invoice.php:125
+#, fuzzy
+msgid "Click to view"
+msgstr "Haga clic para ver"
+
+#: lib/includes/reports/large_invoice.php:132
+#, fuzzy
+msgid "Service/Repair Details"
+msgstr "Detalles del servicio/reparación"
+
+#: lib/includes/reports/large_invoice.php:146
+msgid "Notes"
+msgstr "Notas"
+
+#: lib/includes/reports/large_invoice.php:251
+#, fuzzy
+msgid "Service/Repair Total"
+msgstr "Total de servicio/reparación"
+
+#: lib/includes/reports/large_invoice.php:255
+#: lib/includes/reports/repair_label.php:47
+#: lib/includes/reports/repair_order.php:149
+#, fuzzy
+msgid "Print"
+msgstr "Impresión"
+
+#: lib/includes/reports/load.php:3
+#, fuzzy
+msgid "Something is wrong please check your url."
+msgstr "Algo está mal por favor revise su url."
+
+#: lib/includes/reports/repair_label.php:33
+#: lib/includes/reports/repair_order.php:48
+#: lib/includes/theme_functions.php:2381 lib/snippets/Snippet Reporting via
+#: Invoice.php:61
+#, fuzzy
+msgid "Case#"
+msgstr "Caso #"
+
+#: lib/includes/reports/repair_label.php:36
+#, fuzzy
+msgid "Customer ID"
+msgstr "Id. de cliente"
+
+#: lib/includes/reports/repair_label.php:40
+#, fuzzy
+msgid "Device ID"
+msgstr "Id. de dispositivo"
+
+#: lib/includes/reports/repair_label.php:48
+#, fuzzy
+msgid "Print label to paste on device or parts for validation of claim."
+msgstr ""
+"Imprimir etiqueta para pegar en el dispositivo o partes para la validación "
+"de la notificación."
+
+#: lib/includes/reports/repair_order.php:63 lib/includes/tofw_clients.php:66
+#: lib/includes/tofw_clients.php:168 lib/includes/tofw_employees.php:72
+#: lib/includes/tofw_employees.php:162 lib/includes/tofw_jobs.php:925
+#: lib/includes/tofw_managers.php:72 lib/includes/tofw_managers.php:162
+#: lib/includes/tofw_technicians.php:66 lib/includes/tofw_technicians.php:168
+#: lib/snippets/Snippet Reporting via Invoice.php:76
+msgid "Phone"
+msgstr "Telefono"
+
+#: lib/includes/reports/repair_order.php:89 lib/includes/tofw_devices.php:5
+#: lib/includes/tofw_jobs.php:383 lib/includes/tofw_jobs.php:890
+#: lib/shortcodes/start_job_by_device.php:61 lib/snippets/Snippet Reporting via
+#: Invoice.php:105
+msgid "Device"
+msgstr "Dispositivo"
+
+#: lib/includes/reports/repair_order.php:96 lib/includes/tofw_jobs.php:953
+#: lib/snippets/Snippet Reporting via Invoice.php:112
+#, fuzzy
+msgid "ID/IMEI"
+msgstr "ID/IMEI"
+
+#: lib/includes/reports/repair_order.php:102 lib/includes/tofw_services.php:110
+#: lib/snippets/Snippet Reporting via Invoice.php:118
+msgid "Cost"
+msgstr "Costo"
+
+#: lib/includes/reports/repair_order.php:110 lib/snippets/Snippet Reporting via
+#: Invoice.php:126
+#, fuzzy
+msgid "Problem"
+msgstr "problema"
+
+#: lib/includes/reports/repair_order.php:120 lib/snippets/Snippet Reporting via
+#: Invoice.php:136
+#, fuzzy
+msgid "Scan to read policy"
+msgstr "Directiva Analizar para leer"
+
+#: lib/includes/reports/repair_order.php:126 lib/snippets/Snippet Reporting via
+#: Invoice.php:142
+#, fuzzy
+msgid "Scan for Terms and Conditions"
+msgstr "Buscar términos y condiciones"
+
+#: lib/includes/reports/repair_order.php:130 lib/snippets/Snippet Reporting via
+#: Invoice.php:146
+#, fuzzy
+msgid "I agree to the terms and conditions."
+msgstr "Acepto los términos y condiciones."
+
+#: lib/includes/reports/repair_order.php:135 lib/snippets/Snippet Reporting via
+#: Invoice.php:151
+msgid "Signature"
+msgstr "Firma"
+
+#: lib/includes/reports/repair_order.php:140 lib/snippets/Snippet Reporting via
+#: Invoice.php:156
+#, fuzzy
+msgid "Picked Up"
+msgstr "Recogido"
+
+#: lib/includes/reports/repair_order.php:146
+#, fuzzy
+msgid "Thank You for your trust!"
+msgstr "¡Gracias por su confianza!"
+
+#: lib/includes/theme_functions.php:68
+#, fuzzy
+msgid "Tax name required"
+msgstr "Se requiere nombre fiscal"
+
+#: lib/includes/theme_functions.php:70
+#, fuzzy
+msgid "Tax rate is empty or not number"
+msgstr "La tasa de impuestos está vacía o no es el número"
+
+#: lib/includes/theme_functions.php:80
+#, fuzzy
+msgid "You have added tax rate."
+msgstr "Ha agregado la tasa de impuestos."
+
+#: lib/includes/theme_functions.php:83 lib/includes/theme_functions.php:155
+#, fuzzy
+msgid "Invalid Form"
+msgstr "Formulario no válido"
+
+#: lib/includes/theme_functions.php:122
+#, fuzzy
+msgid "Name required"
+msgstr "Nombre requerido"
+
+#: lib/includes/theme_functions.php:124
+#, fuzzy
+msgid "Slug is required"
+msgstr "Se requiere"
+
+#: lib/includes/theme_functions.php:140
+#, fuzzy
+msgid "You have updated status."
+msgstr "Ha actualizado el estado."
+
+#: lib/includes/theme_functions.php:151
+#, fuzzy
+msgid "You have added status."
+msgstr "Ha agregado el estado."
+
+#: lib/includes/theme_functions.php:196
+#, fuzzy
+msgid "Tax status updated!"
+msgstr "¡Estado fiscal actualizado!"
+
+#: lib/includes/theme_functions.php:218
+#, fuzzy
+msgid "Job status updated!"
+msgstr "¡Estado del trabajo actualizado!"
+
+#: lib/includes/theme_functions.php:239
+#, fuzzy
+msgid ""
+"Now products would automatically deduct with this status from WOO inventory "
+"balance.!"
+msgstr ""
+"Ahora los productos se deducirían automáticamente con este estado del saldo "
+"de inventario de WOO.!"
+
+#: lib/includes/theme_functions.php:245 lib/includes/theme_functions.php:283
+#, fuzzy
+msgid "Record updated!"
+msgstr "Registro actualizado!"
+
+#: lib/includes/theme_functions.php:286
+#, fuzzy
+msgid "Order Id or Order Status missing!"
+msgstr "¡Falta el id. de pedido o el estado del pedido!"
+
+#: lib/includes/theme_functions.php:323
+#, fuzzy
+msgid "Duplicate User"
+msgstr "Usuario duplicado"
+
+#: lib/includes/theme_functions.php:325 lib/shortcodes/request_quote.php:162
+#: lib/shortcodes/start_job_by_device.php:218
+#: lib/shortcodes/start_job_by_location.php:220
+#, fuzzy
+msgid "Not a valid username"
+msgstr "No es un nombre de usuario válido"
+
+#: lib/includes/theme_functions.php:327 lib/shortcodes/request_quote.php:165
+#: lib/shortcodes/start_job_by_device.php:221
+#: lib/shortcodes/start_job_by_location.php:223
+#, fuzzy
+msgid "Email is not valid"
+msgstr "El correo electrónico no es válido"
+
+#: lib/includes/theme_functions.php:329
+#, fuzzy
+msgid "Email already in user. Try resetting password if its your Email."
+msgstr ""
+"Correo electrónico ya en el usuario. Intente restablecer la contraseña si es "
+"su correo electrónico."
+
+#: lib/includes/theme_functions.php:348 lib/shortcodes/request_quote.php:192
+#: lib/shortcodes/start_job_by_device.php:248
+#: lib/shortcodes/start_job_by_location.php:250
+#, fuzzy
+msgid "User account is created logins sent to email."
+msgstr ""
+"La cuenta de usuario se crea inicios de sesión enviados al correo "
+"electrónico."
+
+#: lib/includes/theme_functions.php:734 lib/includes/theme_functions.php:1011
+#, fuzzy
+msgid "Extra name here..."
+msgstr "Nombre extra aquí..."
+
+#: lib/includes/theme_functions.php:811 lib/includes/theme_functions.php:1002
+#, fuzzy
+msgid "No ID selected"
+msgstr "No se ha seleccionado ningún id."
+
+#: lib/includes/theme_functions.php:1051
+#, fuzzy
+msgid "Add a new customer"
+msgstr "Agregar un nuevo cliente"
+
+#: lib/includes/theme_functions.php:1059 lib/includes/theme_functions.php:1281
+#: lib/includes/theme_functions.php:1403 lib/includes/theme_functions.php:1618
+#, fuzzy
+msgid "There are some errors in your form."
+msgstr "Hay algunos errores en el formulario."
+
+#: lib/includes/theme_functions.php:1068 lib/includes/theme_functions.php:1290
+#: lib/includes/theme_functions.php:1412 lib/includes/tofw_employees.php:237
+#: lib/includes/tofw_managers.php:237 lib/shortcodes/request_quote.php:23
+#: lib/shortcodes/start_job_by_device.php:83
+#: lib/shortcodes/start_job_by_location.php:83
+msgid "First Name"
+msgstr "Primer nombre"
+
+#: lib/includes/theme_functions.php:1072 lib/includes/theme_functions.php:1294
+#: lib/includes/theme_functions.php:1416 lib/includes/tofw_employees.php:241
+#: lib/includes/tofw_managers.php:241
+#, fuzzy
+msgid "First Name Is Required."
+msgstr "Se requiere nombre."
+
+#: lib/includes/theme_functions.php:1078 lib/includes/theme_functions.php:1300
+#: lib/includes/theme_functions.php:1422 lib/includes/tofw_employees.php:247
+#: lib/includes/tofw_managers.php:247 lib/shortcodes/request_quote.php:30
+#: lib/shortcodes/start_job_by_device.php:90
+#: lib/shortcodes/start_job_by_location.php:90
+msgid "Last Name"
+msgstr "Apellido"
+
+#: lib/includes/theme_functions.php:1093 lib/includes/theme_functions.php:1315
+#: lib/includes/theme_functions.php:1437 lib/includes/tofw_employees.php:262
+#: lib/includes/tofw_managers.php:262
+#, fuzzy
+msgid "Email Is Required."
+msgstr "Se requiere correo electrónico."
+
+#: lib/includes/theme_functions.php:1099 lib/includes/theme_functions.php:1321
+#: lib/includes/theme_functions.php:1443 lib/includes/tofw_employees.php:268
+#: lib/includes/tofw_managers.php:268
+msgid "Phone Number"
+msgstr "Número de teléfono"
+
+#: lib/includes/theme_functions.php:1111 lib/includes/theme_functions.php:1333
+#: lib/includes/theme_functions.php:1455 lib/includes/tofw_employees.php:288
+#: lib/includes/tofw_managers.php:288 lib/shortcodes/request_quote.php:58
+#: lib/shortcodes/start_job_by_device.php:117
+#: lib/shortcodes/start_job_by_location.php:117
+msgid "City"
+msgstr "Ciudad"
+
+#: lib/includes/theme_functions.php:1118 lib/includes/theme_functions.php:1340
+#: lib/includes/theme_functions.php:1462 lib/includes/tofw_employees.php:295
+#: lib/includes/tofw_managers.php:295 lib/shortcodes/request_quote.php:65
+#: lib/shortcodes/start_job_by_device.php:124
+#: lib/shortcodes/start_job_by_location.php:124
+msgid "Postal Code"
+msgstr "Cód. postal"
+
+#: lib/includes/theme_functions.php:1129 lib/includes/theme_functions.php:1352
+#: lib/includes/tofw_clients.php:72 lib/includes/tofw_clients.php:174
+#: lib/includes/tofw_jobs.php:928 lib/includes/tofw_technicians.php:72
+#: lib/includes/tofw_technicians.php:174 lib/shortcodes/request_quote.php:75
+#: lib/shortcodes/start_job_by_device.php:134
+#: lib/shortcodes/start_job_by_location.php:134
+msgid "Company"
+msgstr "Empresa"
+
+#: lib/includes/theme_functions.php:1146
+#, fuzzy
+msgid "Add Customer"
+msgstr "Agregar cliente"
+
+#: lib/includes/theme_functions.php:1149 lib/includes/theme_functions.php:1374
+#: lib/includes/theme_functions.php:1478 lib/includes/theme_functions.php:1568
+#: lib/includes/theme_functions.php:1695 lib/includes/tofw_employees.php:314
+#: lib/includes/tofw_managers.php:314
+#, fuzzy
+msgid "(*) fields are required"
+msgstr "(*) los campos son obligatorios"
+
+#: lib/includes/theme_functions.php:1207
+#, fuzzy
+msgid "User Updated!"
+msgstr "Usuario actualizado!"
+
+#: lib/includes/theme_functions.php:1274 lib/includes/theme_functions.php:1594
+msgid "Update"
+msgstr "Actualice"
+
+#: lib/includes/theme_functions.php:1371
+msgid "Update "
+msgstr "actualizar "
+
+#: lib/includes/theme_functions.php:1395
+#, fuzzy
+msgid "Add a new technician"
+msgstr "Agregar un nuevo técnico"
+
+#: lib/includes/theme_functions.php:1475
+#, fuzzy
+msgid "Add Technician"
+msgstr "Agregar técnico"
+
+#: lib/includes/theme_functions.php:1500
+#, fuzzy
+msgid "Add new tax"
+msgstr "Agregar nuevo impuesto"
+
+#: lib/includes/theme_functions.php:1517
+#, fuzzy
+msgid "Tax Name"
+msgstr "Nombre del impuesto"
+
+#: lib/includes/theme_functions.php:1521
+#, fuzzy
+msgid "Name of tax to recognize."
+msgstr "Nombre del impuesto a reconocer."
+
+#: lib/includes/theme_functions.php:1527
+#, fuzzy
+msgid "Tax Description"
+msgstr "Descripción del impuesto"
+
+#: lib/includes/theme_functions.php:1538
+#, fuzzy
+msgid "Tax Rate"
+msgstr "Tasa impositiva"
+
+#: lib/includes/theme_functions.php:1542
+#, fuzzy
+msgid "Only numbers like 15 for 15% , 0 for 0%, 25 for 25%."
+msgstr "Solo números como 15 para 15%, 0 para 0%, 25 para 25%."
+
+#: lib/includes/theme_functions.php:1548
+#, fuzzy
+msgid "Tax Status"
+msgstr "Estado fiscal"
+
+#: lib/includes/theme_functions.php:1550 lib/includes/theme_functions.php:1660
+msgid "Active"
+msgstr "Activa"
+
+#: lib/includes/theme_functions.php:1551 lib/includes/theme_functions.php:1661
+msgid "Inactive"
+msgstr "Inactiva"
+
+#: lib/includes/theme_functions.php:1565
+#, fuzzy
+msgid "Add Tax"
+msgstr "Agregar impuestos"
+
+#: lib/includes/theme_functions.php:1588
+#, fuzzy
+msgid "Add new"
+msgstr "Añadir Nuevo"
+
+#: lib/includes/theme_functions.php:1627
+#, fuzzy
+msgid "Status Name"
+msgstr "Nombre de estado"
+
+#: lib/includes/theme_functions.php:1631
+#, fuzzy
+msgid "Name the status to recognize."
+msgstr "Asigne un nombre al estado que se va a reconocer."
+
+#: lib/includes/theme_functions.php:1637
+#, fuzzy
+msgid "Status Slug"
+msgstr "Slug de estado"
+
+#: lib/includes/theme_functions.php:1641
+#, fuzzy
+msgid "Slug is required to recognize the status make sure to not change it."
+msgstr "Slug es necesario para reconocer el estado asegúrese de no cambiarlo."
+
+#: lib/includes/theme_functions.php:1671
+#, fuzzy
+msgid "Status Email Message"
+msgstr "Mensaje de correo electrónico de estado"
+
+#: lib/includes/theme_functions.php:1672
+#, fuzzy
+msgid "This message would be sent when a job status is changed to this."
+msgstr ""
+"Este mensaje se enviaría cuando se cambia el estado de un trabajo a este."
+
+#: lib/includes/theme_functions.php:1761 lib/includes/theme_functions.php:1849
+#, fuzzy
+msgid "Sorry nothing to display!"
+msgstr "Lo sentimos nada que mostrar!"
+
+#: lib/includes/theme_functions.php:2138
+#, fuzzy
+msgid "Select Location"
+msgstr "Seleccionar ubicación"
+
+#: lib/includes/theme_functions.php:2214
+#, fuzzy
+msgid "Select Device"
+msgstr "Seleccionar dispositivo"
+
+#: lib/includes/theme_functions.php:2321
+#, fuzzy
+msgid "You are not logged in."
+msgstr "No ha iniciado sesión."
+
+#: lib/includes/theme_functions.php:2326
+#, fuzzy
+msgid "Requires a customer id."
+msgstr "Requiere un identificador de cliente."
+
+#: lib/includes/theme_functions.php:2382 lib/includes/tofw_jobs.php:891
+#, fuzzy
+msgid "Assigned To"
+msgstr "Asignado a"
+
+#: lib/includes/theme_functions.php:2383
+msgid "Order Date"
+msgstr "Fecha del pedido"
+
+#: lib/includes/theme_functions.php:2384 lib/includes/tofw_jobs.php:459
+#: lib/includes/tofw_jobs.php:503 lib/includes/tofw_jobs.php:544
+#: lib/includes/tofw_jobs.php:580
+msgid "Total"
+msgstr "Total"
+
+#: lib/includes/theme_functions.php:2386
+msgid "Payment"
+msgstr "Pago"
+
+#: lib/includes/theme_functions.php:2387 lib/includes/theme_functions.php:2412
+msgid "View"
+msgstr "Ver"
+
+#: lib/includes/theme_functions.php:2417
+#, fuzzy
+msgid "No job found!"
+msgstr "¡No se encontró trabajo!"
+
+#: lib/includes/theme_functions.php:2600
+#, fuzzy
+msgid "Your Job Status is Updated!"
+msgstr "¡Su estado de trabajo se actualiza!"
+
+#: lib/includes/theme_functions.php:2604
+#, fuzzy
+msgid "Your Job Status Is Updated."
+msgstr "Se actualiza el estado de su trabajo."
+
+#: lib/includes/theme_functions.php:2608
+#, fuzzy
+msgid "Your Job update is below if you have any questions please reach us."
+msgstr ""
+"Su actualización de trabajo está a continuación si tiene alguna pregunta, "
+"comuníquese con nosotros."
+
+#: lib/includes/theme_functions.php:2731
+msgid "Upload File"
+msgstr "Cargar archivo"
+
+#: lib/includes/theme_functions.php:2753
+#, fuzzy
+msgid "Remove File"
+msgstr "Quitar archivo"
+
+#: lib/includes/tofw_clients.php:9 lib/includes/tofw_employees.php:9
+#: lib/includes/tofw_managers.php:9 lib/includes/tofw_technicians.php:9
+msgid "You need a higher level of permission."
+msgstr "Necesitas niveles adicionales de permiso"
+
+#: lib/includes/tofw_clients.php:10 lib/includes/tofw_employees.php:10
+#: lib/includes/tofw_managers.php:10 lib/includes/tofw_technicians.php:10
+#, fuzzy
+msgid "Sorry, you are not allowed to list users."
+msgstr "Lo sentimos, no se le permite poner en venta usuarios."
+
+#: lib/includes/tofw_clients.php:40
+#, fuzzy
+msgid "Manage Clients"
+msgstr "Administrar clientes"
+
+#: lib/includes/tofw_clients.php:43 lib/includes/tofw_employees.php:49
+#: lib/includes/tofw_managers.php:49 lib/includes/tofw_technicians.php:43
+msgid "Add New"
+msgstr "Añadir Nuevo"
+
+#: lib/includes/tofw_clients.php:51 lib/includes/tofw_employees.php:57
+#: lib/includes/tofw_managers.php:57 lib/includes/tofw_technicians.php:51
+msgid "Display"
+msgstr "Visualización"
+
+#: lib/includes/tofw_clients.php:51 lib/includes/tofw_employees.php:57
+#: lib/includes/tofw_managers.php:57 lib/includes/tofw_technicians.php:51
+#, fuzzy
+msgid "From Total"
+msgstr "De Total"
+
+#: lib/includes/tofw_clients.php:51
+#, fuzzy
+msgid "Clients."
+msgstr "Clientes."
+
+#: lib/includes/tofw_clients.php:112 lib/includes/tofw_employees.php:112
+#: lib/includes/tofw_managers.php:112 lib/includes/tofw_technicians.php:112
+#, fuzzy
+msgid "View Jobs"
+msgstr "Ver trabajos"
+
+#: lib/includes/tofw_clients.php:116 lib/includes/tofw_employees.php:116
+#: lib/includes/tofw_managers.php:116 lib/includes/tofw_technicians.php:116
+#, fuzzy
+msgid "Show more details"
+msgstr "Mostrar más detalles"
+
+#: lib/includes/tofw_clients.php:187 lib/includes/tofw_employees.php:175
+#: lib/includes/tofw_managers.php:175 lib/includes/tofw_technicians.php:187
+#, fuzzy
+msgid "items"
+msgstr "Artículos"
+
+#: lib/includes/tofw_clients.php:206 lib/includes/tofw_employees.php:194
+#: lib/includes/tofw_managers.php:194 lib/includes/tofw_technicians.php:206
+msgid "of"
+msgstr "de"
+
+#: lib/includes/tofw_devices.php:4
+#, fuzzy
+msgid "Add new device"
+msgstr "Agregar nuevo dispositivo"
+
+#: lib/includes/tofw_devices.php:8
+#, fuzzy
+msgid "Edit Device"
+msgstr "Editar dispositivo"
+
+#: lib/includes/tofw_devices.php:9
+#, fuzzy
+msgid "New Device"
+msgstr "Nuevo dispositivo"
+
+#: lib/includes/tofw_devices.php:10
+#, fuzzy
+msgid "View Device"
+msgstr "Ver dispositivo"
+
+#: lib/includes/tofw_devices.php:11
+#, fuzzy
+msgid "Search Device"
+msgstr "Dispositivo de búsqueda"
+
+#: lib/includes/tofw_devices.php:12
+#, fuzzy
+msgid "No device found"
+msgstr "No se ha encontrado ningún dispositivo"
+
+#: lib/includes/tofw_devices.php:13
+#, fuzzy
+msgid "No device in trash"
+msgstr "No hay dispositivo en la papelera"
+
+#: lib/includes/tofw_devices.php:19
+#, fuzzy
+msgid "Devices Section"
+msgstr "Sección de Dispositivos"
+
+#: lib/includes/tofw_devices.php:42
+#, fuzzy
+msgid "Device Brands"
+msgstr "Marcas de dispositivos"
+
+#: lib/includes/tofw_devices.php:43 lib/includes/tofw_devices.php:52
+#: lib/includes/tofw_devices.php:56
+#, fuzzy
+msgid "Device Brand"
+msgstr "Marca del dispositivo"
+
+#: lib/includes/tofw_devices.php:44
+#, fuzzy
+msgid "Search Device Brands"
+msgstr "Buscar marcas de dispositivos"
+
+#: lib/includes/tofw_devices.php:45
+#, fuzzy
+msgid "All Device Brands"
+msgstr "Todas las marcas de dispositivos"
+
+#: lib/includes/tofw_devices.php:46
+#, fuzzy
+msgid "Parent Device Brand"
+msgstr "Marca del dispositivo principal"
+
+#: lib/includes/tofw_devices.php:47
+#, fuzzy
+msgid "Parent Device Brand:"
+msgstr "Marca del dispositivo principal:"
+
+#: lib/includes/tofw_devices.php:48
+#, fuzzy
+msgid "Edit Device Brand"
+msgstr "Editar marca del dispositivo"
+
+#: lib/includes/tofw_devices.php:49
+#, fuzzy
+msgid "Update Device Brand"
+msgstr "Actualizar la marca del dispositivo"
+
+#: lib/includes/tofw_devices.php:50
+#, fuzzy
+msgid "Add New Device Brand"
+msgstr "Agregar nueva marca de dispositivo"
+
+#: lib/includes/tofw_devices.php:51 lib/includes/tofw_locations.php:51
+#: lib/includes/tofw_products.php:52
+#, fuzzy
+msgid "New Brand Name"
+msgstr "Nueva marca"
+
+#: lib/includes/tofw_employees.php:42
+#, fuzzy
+msgid "Manage Shop Employees"
+msgstr "Administrar empleados de la tienda"
+
+#: lib/includes/tofw_employees.php:46
+#, fuzzy
+msgid "If you want to change employee's shop access please edit shop."
+msgstr "Si desea cambiar el acceso a la tienda del empleado, edite la tienda."
+
+#: lib/includes/tofw_employees.php:57
+#, fuzzy
+msgid "Shop Employees."
+msgstr "Empleados de la tienda."
+
+#: lib/includes/tofw_employees.php:220
+#, fuzzy
+msgid "Add a new employee"
+msgstr "Agregar un nuevo empleado"
+
+#: lib/includes/tofw_employees.php:311
+#, fuzzy
+msgid "Add Employee"
+msgstr "Agregar empleado"
+
+#: lib/includes/tofw_jobs.php:12
+#, fuzzy
+msgid "Add new Job"
+msgstr "Agregar nuevo trabajo"
+
+#: lib/includes/tofw_jobs.php:13
+msgid "Job"
+msgstr "Job"
+
+#: lib/includes/tofw_jobs.php:16
+#, fuzzy
+msgid "Edit Job"
+msgstr "Editar trabajo"
+
+#: lib/includes/tofw_jobs.php:17
+#, fuzzy
+msgid "New Job"
+msgstr "Nuevo trabajo"
+
+#: lib/includes/tofw_jobs.php:18
+#, fuzzy
+msgid "View Job"
+msgstr "Ver trabajo"
+
+#: lib/includes/tofw_jobs.php:19
+#, fuzzy
+msgid "Search Job"
+msgstr "Buscar trabajo"
+
+#: lib/includes/tofw_jobs.php:20
+#, fuzzy
+msgid "No Job found"
+msgstr "No se ha encontrado ningún trabajo"
+
+#: lib/includes/tofw_jobs.php:21
+#, fuzzy
+msgid "No Job in trash"
+msgstr "No hay trabajo en la basura"
+
+#: lib/includes/tofw_jobs.php:27
+#, fuzzy
+msgid "Jobs Section"
+msgstr "Sección de trabajos"
+
+#: lib/includes/tofw_jobs.php:55
+#, fuzzy
+msgid "Order Information"
+msgstr "Información del pedido"
+
+#: lib/includes/tofw_jobs.php:63 lib/includes/tofw_jobs.php:417
+#: lib/shortcodes/request_quote.php:93
+#: lib/shortcodes/start_job_by_device.php:152
+#: lib/shortcodes/start_job_by_location.php:152
+#, fuzzy
+msgid "Job Details"
+msgstr "Detalles del trabajo"
+
+#: lib/includes/tofw_jobs.php:90
+#, fuzzy
+msgid "Products Total"
+msgstr "Total de productos"
+
+#: lib/includes/tofw_jobs.php:97
+#, fuzzy
+msgid "Parts Total"
+msgstr "Total de piezas"
+
+#: lib/includes/tofw_jobs.php:103
+#, fuzzy
+msgid "Services Total"
+msgstr "Total de servicios"
+
+#: lib/includes/tofw_jobs.php:108
+#, fuzzy
+msgid "Extras Total"
+msgstr "Extras Total"
+
+#: lib/includes/tofw_jobs.php:115
+#, fuzzy
+msgid "Products Tax"
+msgstr "Impuesto sobre productos"
+
+#: lib/includes/tofw_jobs.php:124
+#, fuzzy
+msgid "Parts Tax"
+msgstr "Impuesto sobre piezas"
+
+#: lib/includes/tofw_jobs.php:130
+#, fuzzy
+msgid "Services Tax"
+msgstr "Impuesto sobre servicios"
+
+#: lib/includes/tofw_jobs.php:135
+#, fuzzy
+msgid "Extras Tax"
+msgstr "Impuesto extras"
+
+#: lib/includes/tofw_jobs.php:141
+#, fuzzy
+msgid "Grand Total"
+msgstr "Total general"
+
+#: lib/includes/tofw_jobs.php:168 lib/includes/tofw_jobs.php:675
+#: lib/includes/tofw_jobs.php:993 lib/includes/tofw_jobs.php:1128
+#: lib/includes/tofw_products.php:147 lib/includes/tofw_products.php:375
+#: lib/includes/tofw_services.php:138 lib/includes/tofw_services.php:270
+#, fuzzy
+msgid "Warranty"
+msgstr "garantía"
+
+#: lib/includes/tofw_jobs.php:169 lib/includes/tofw_jobs.php:676
+#: lib/includes/tofw_jobs.php:994 lib/includes/tofw_jobs.php:1129
+msgid "Pending"
+msgstr "Pendiente"
+
+#: lib/includes/tofw_jobs.php:170 lib/includes/tofw_jobs.php:677
+#: lib/includes/tofw_jobs.php:995 lib/includes/tofw_jobs.php:1130
+msgid "Credit"
+msgstr "Crédito"
+
+#: lib/includes/tofw_jobs.php:171 lib/includes/tofw_jobs.php:678
+#: lib/includes/tofw_jobs.php:996 lib/includes/tofw_jobs.php:1131
+msgid "Paid"
+msgstr "Pagado"
+
+#: lib/includes/tofw_jobs.php:172 lib/includes/tofw_jobs.php:679
+#: lib/includes/tofw_jobs.php:997 lib/includes/tofw_jobs.php:1132
+#, fuzzy
+msgid "Partially Paid"
+msgstr "Parcialmente pagado"
+
+#: lib/includes/tofw_jobs.php:179
+#, fuzzy
+msgid "Upload Files"
+msgstr "Cargar archivos"
+
+#: lib/includes/tofw_jobs.php:189
+#, fuzzy
+msgid "Order Notes:"
+msgstr "Notas del pedido:"
+
+#: lib/includes/tofw_jobs.php:197
+#, fuzzy
+msgid "Job Contact:"
+msgstr "Contacto del trabajo:"
+
+#: lib/includes/tofw_jobs.php:203
+#, fuzzy
+msgid "Job Cell:"
+msgstr "Celda de trabajo:"
+
+#: lib/includes/tofw_jobs.php:219
+#, fuzzy
+msgid "Print Repair Order"
+msgstr "Orden de reparación de impresión"
+
+#: lib/includes/tofw_jobs.php:220
+#, fuzzy
+msgid "Print Repair Label"
+msgstr "Imprimir etiqueta de reparación"
+
+#: lib/includes/tofw_jobs.php:224
+msgid "Print Order"
+msgstr "Imprimir orden"
+
+#: lib/includes/tofw_jobs.php:282 lib/includes/tofw_jobs.php:892
+#: lib/shortcodes/start_job_by_device.php:40
+#: lib/shortcodes/start_job_by_location.php:40
+#, fuzzy
+msgid "Delivery Date"
+msgstr "Fecha de entrega"
+
+#: lib/includes/tofw_jobs.php:296 lib/includes/tofw_jobs.php:302
+#: lib/shortcodes/start_job_by_device.php:48
+#: lib/shortcodes/start_job_by_device.php:49
+#: lib/shortcodes/start_job_by_location.php:48
+#: lib/shortcodes/start_job_by_location.php:49
+#, fuzzy
+msgid "Select Customer"
+msgstr "Seleccionar cliente"
+
+#: lib/includes/tofw_jobs.php:310 lib/shortcodes/start_job_by_device.php:51
+#: lib/shortcodes/start_job_by_location.php:51
+#, fuzzy
+msgid "Select customer if does not exist!"
+msgstr "Seleccione el cliente si no existe!"
+
+#: lib/includes/tofw_jobs.php:310 lib/shortcodes/start_job_by_device.php:51
+#: lib/shortcodes/start_job_by_location.php:51
+#, fuzzy
+msgid "Add New Customer"
+msgstr "Agregar nuevo cliente"
+
+#: lib/includes/tofw_jobs.php:317 lib/includes/tofw_jobs.php:330
+#, fuzzy
+msgid "Select Technician"
+msgstr "Seleccionar técnico"
+
+#: lib/includes/tofw_jobs.php:332
+#, fuzzy
+msgid "Select technician if does not exist!"
+msgstr "Seleccione técnico si no existe!"
+
+#: lib/includes/tofw_jobs.php:332
+#, fuzzy
+msgid "Add New Technician"
+msgstr "Agregar nuevo técnico"
+
+#: lib/includes/tofw_jobs.php:346 lib/includes/tofw_jobs.php:889
+#: lib/includes/tofw_locations.php:5
+#: lib/shortcodes/start_job_by_location.php:61
+msgid "Location"
+msgstr "Ubicación"
+
+#: lib/includes/tofw_jobs.php:362 lib/shortcodes/start_job_by_location.php:71
+#, fuzzy
+msgid "Location ID/LCTN"
+msgstr "Id. de ubicación/LCTN"
+
+#: lib/includes/tofw_jobs.php:399 lib/shortcodes/start_job_by_device.php:71
+#, fuzzy
+msgid "Device ID/IMEI"
+msgstr "ID de dispositivo/IMEI"
+
+#: lib/includes/tofw_jobs.php:421
+#, fuzzy
+msgid "Enter details about job."
+msgstr "Introduzca los detalles sobre el trabajo."
+
+#: lib/includes/tofw_jobs.php:434
+#, fuzzy
+msgid "Select Products"
+msgstr "Seleccionar productos"
+
+#: lib/includes/tofw_jobs.php:438
+#, fuzzy
+msgid "Search product ..."
+msgstr "Buscar producto ..."
+
+#: lib/includes/tofw_jobs.php:441
+#, fuzzy
+msgid "Add Product"
+msgstr "Agregar producto"
+
+#: lib/includes/tofw_jobs.php:450
+#, fuzzy
+msgid "SKU"
+msgstr "Sku"
+
+#: lib/includes/tofw_jobs.php:451 lib/includes/tofw_jobs.php:495
+#: lib/includes/tofw_jobs.php:536 lib/includes/tofw_jobs.php:572
+msgid "Qty"
+msgstr "Cantidad"
+
+#: lib/includes/tofw_jobs.php:452 lib/includes/tofw_jobs.php:496
+#: lib/includes/tofw_jobs.php:537 lib/includes/tofw_jobs.php:573
+#: lib/includes/tofw_products.php:120 lib/includes/tofw_products.php:226
+#: lib/includes/tofw_products.php:365
+msgid "Price"
+msgstr "Precio"
+
+#: lib/includes/tofw_jobs.php:455 lib/includes/tofw_jobs.php:456
+#: lib/includes/tofw_jobs.php:499 lib/includes/tofw_jobs.php:500
+#: lib/includes/tofw_jobs.php:540 lib/includes/tofw_jobs.php:541
+#: lib/includes/tofw_jobs.php:576 lib/includes/tofw_jobs.php:577
+#, fuzzy
+msgid "Tax"
+msgstr "impuesto"
+
+#: lib/includes/tofw_jobs.php:474
+#, fuzzy
+msgid "Selected Parts"
+msgstr "Artículos seleccionados"
+
+#: lib/includes/tofw_jobs.php:476
+#, fuzzy
+msgid "Select Parts"
+msgstr "Seleccionar piezas"
+
+#: lib/includes/tofw_jobs.php:483
+#, fuzzy
+msgid "Add Part"
+msgstr "Añadir artículo"
+
+#: lib/includes/tofw_jobs.php:493 lib/includes/tofw_jobs.php:571
+#, fuzzy
+msgid "Code"
+msgstr "código"
+
+#: lib/includes/tofw_jobs.php:494 lib/includes/tofw_products.php:114
+#: lib/includes/tofw_products.php:225 lib/includes/tofw_products.php:361
+#, fuzzy
+msgid "Capacity"
+msgstr "capacidad"
+
+#: lib/includes/tofw_jobs.php:515
+#, fuzzy
+msgid "Select Services"
+msgstr "Seleccionar servicios"
+
+#: lib/includes/tofw_jobs.php:524
+#, fuzzy
+msgid "Add Service"
+msgstr "Agregar servicio"
+
+#: lib/includes/tofw_jobs.php:535 lib/includes/tofw_services.php:98
+#: lib/includes/tofw_services.php:264 lib/includes/tofw_services.php:288
+#, fuzzy
+msgid "Service Code"
+msgstr "Código de servicio"
+
+#: lib/includes/tofw_jobs.php:554
+#, fuzzy
+msgid "Other Items "
+msgstr "Otros artículos "
+
+#: lib/includes/tofw_jobs.php:560
+#, fuzzy
+msgid "Add Field"
+msgstr "Agregar campo"
+
+#: lib/includes/tofw_jobs.php:886
+#, fuzzy
+msgid "Order ID"
+msgstr "Id. de pedido"
+
+#: lib/includes/tofw_jobs.php:893
+msgid "Order Total"
+msgstr "Total del pedido"
+
+#: lib/includes/tofw_jobs.php:895
+#, fuzzy
+msgid "Job Contact"
+msgstr "Contacto del trabajo"
+
+#: lib/includes/tofw_jobs.php:896
+#, fuzzy
+msgid "Job SMS"
+msgstr "SMS de trabajo"
+
+#: lib/includes/tofw_jobs.php:941
+#, fuzzy
+msgid "ID/LCTN"
+msgstr "Id. de ubicación/LCTN"
+
+#: lib/includes/tofw_jobs.php:1108
+#, fuzzy
+msgid "Job Status (All)"
+msgstr "Estado del trabajo (todos)"
+
+#: lib/includes/tofw_jobs.php:1140
+#, fuzzy
+msgid "Payment Status (All)"
+msgstr "Estado de pago (todos)"
+
+#: lib/includes/tofw_jobs.php:1153
+#, fuzzy
+msgid "Customer (All)"
+msgstr "Cliente (Todos)"
+
+#: lib/includes/tofw_jobs.php:1161
+#, fuzzy
+msgid "Technician (All)"
+msgstr "Técnico (Todos)"
+
+#: lib/includes/tofw_locations.php:4
+#, fuzzy
+msgid "Add new location"
+msgstr "Agregar nueva ubicación"
+
+#: lib/includes/tofw_locations.php:8
+#, fuzzy
+msgid "Edit Location"
+msgstr "Editar ubicación"
+
+#: lib/includes/tofw_locations.php:9
+#, fuzzy
+msgid "New Location"
+msgstr "Nueva ubicación"
+
+#: lib/includes/tofw_locations.php:10
+#, fuzzy
+msgid "View Location"
+msgstr "Ver ubicación"
+
+#: lib/includes/tofw_locations.php:11
+#, fuzzy
+msgid "Search Location"
+msgstr "Ubicación de búsqueda"
+
+#: lib/includes/tofw_locations.php:12
+#, fuzzy
+msgid "No location found"
+msgstr "No se ha encontrado ninguna ubicación"
+
+#: lib/includes/tofw_locations.php:13
+#, fuzzy
+msgid "No location in trash"
+msgstr "No hay ubicación en la papelera"
+
+#: lib/includes/tofw_locations.php:19
+#, fuzzy
+msgid "Locations Section"
+msgstr "Sección de Ubicaciones"
+
+#: lib/includes/tofw_locations.php:42
+#, fuzzy
+msgid "Location Brands"
+msgstr "Marcas de ubicación"
+
+#: lib/includes/tofw_locations.php:43 lib/includes/tofw_locations.php:52
+#: lib/includes/tofw_locations.php:56
+#, fuzzy
+msgid "Location Brand"
+msgstr "Marca de ubicación"
+
+#: lib/includes/tofw_locations.php:44
+#, fuzzy
+msgid "Search Location Brands"
+msgstr "Buscar marcas de ubicación"
+
+#: lib/includes/tofw_locations.php:45
+#, fuzzy
+msgid "All Location Brands"
+msgstr "Todas las marcas de ubicación"
+
+#: lib/includes/tofw_locations.php:46
+#, fuzzy
+msgid "Parent Location Brand"
+msgstr "Marca de ubicación principal"
+
+#: lib/includes/tofw_locations.php:47
+#, fuzzy
+msgid "Parent Location Brand:"
+msgstr "Marca de ubicación principal:"
+
+#: lib/includes/tofw_locations.php:48
+#, fuzzy
+msgid "Edit Location Brand"
+msgstr "Editar marca de ubicación"
+
+#: lib/includes/tofw_locations.php:49
+#, fuzzy
+msgid "Update Location Brand"
+msgstr "Actualizar marca de ubicación"
+
+#: lib/includes/tofw_locations.php:50
+#, fuzzy
+msgid "Add New Location Brand"
+msgstr "Agregar nueva marca de ubicación"
+
+#: lib/includes/tofw_managers.php:42
+#, fuzzy
+msgid "Manage Shop Managers"
+msgstr "Administrar gerentes de tiendas"
+
+#: lib/includes/tofw_managers.php:46
+#, fuzzy
+msgid "If you want to change manager's shop access please edit shop."
+msgstr "Si desea cambiar el acceso a la tienda del gerente, edite la tienda."
+
+#: lib/includes/tofw_managers.php:57
+#, fuzzy
+msgid "Shop Managers."
+msgstr "Gerentes de tiendas."
+
+#: lib/includes/tofw_managers.php:220
+#, fuzzy
+msgid "Add a new Manager"
+msgstr "Agregar un nuevo administrador"
+
+#: lib/includes/tofw_managers.php:311
+#, fuzzy
+msgid "Add Manager"
+msgstr "Administrador de agregar"
+
+#: lib/includes/tofw_print_functionality.php:11
+#, fuzzy
+msgid "The email have been sent to the customer."
+msgstr "El correo electrónico se ha enviado al cliente."
+
+#: lib/includes/tofw_products.php:4
+#, fuzzy
+msgid "Add new Product"
+msgstr "Agregar nuevo producto"
+
+#: lib/includes/tofw_products.php:5
+msgid "Product"
+msgstr "Producto"
+
+#: lib/includes/tofw_products.php:8
+#, fuzzy
+msgid "Edit Product"
+msgstr "Editar producto"
+
+#: lib/includes/tofw_products.php:9
+#, fuzzy
+msgid "New Product"
+msgstr "Nuevo producto"
+
+#: lib/includes/tofw_products.php:10
+msgid "View Product"
+msgstr "Ver producto"
+
+#: lib/includes/tofw_products.php:11
+msgid "Search Products"
+msgstr "Buscar productos"
+
+#: lib/includes/tofw_products.php:12
+#, fuzzy
+msgid "No product found"
+msgstr "No se ha encontrado ningún producto"
+
+#: lib/includes/tofw_products.php:13
+#, fuzzy
+msgid "No product in trash"
+msgstr "Ningún producto en la basura"
+
+#: lib/includes/tofw_products.php:20
+#, fuzzy
+msgid "Parts Section"
+msgstr "Sección de piezas"
+
+#: lib/includes/tofw_products.php:43
+#, fuzzy
+msgid "Brands"
+msgstr "Marcas"
+
+#: lib/includes/tofw_products.php:44 lib/includes/tofw_products.php:53
+#: lib/includes/tofw_products.php:57 lib/includes/tofw_products.php:379
+#, fuzzy
+msgid "Brand"
+msgstr "marca"
+
+#: lib/includes/tofw_products.php:45
+#, fuzzy
+msgid "Search Brands"
+msgstr "Buscar marcas"
+
+#: lib/includes/tofw_products.php:46
+#, fuzzy
+msgid "All Brands"
+msgstr "Todas las marcas"
+
+#: lib/includes/tofw_products.php:47
+#, fuzzy
+msgid "Parent Brand"
+msgstr "Marca principal"
+
+#: lib/includes/tofw_products.php:48
+#, fuzzy
+msgid "Parent Brand:"
+msgstr "Marca principal:"
+
+#: lib/includes/tofw_products.php:49
+#, fuzzy
+msgid "Edit Brand"
+msgstr "Editar marca"
+
+#: lib/includes/tofw_products.php:50
+#, fuzzy
+msgid "Update Brand"
+msgstr "Actualizar marca"
+
+#: lib/includes/tofw_products.php:51
+#, fuzzy
+msgid "Add New Brand"
+msgstr "Agregar nueva marca"
+
+#: lib/includes/tofw_products.php:96 lib/includes/tofw_products.php:349
+#, fuzzy
+msgid "Manufacturing Code"
+msgstr "Código de fabricación"
+
+#: lib/includes/tofw_products.php:102 lib/includes/tofw_products.php:224
+#: lib/includes/tofw_products.php:353
+#, fuzzy
+msgid "Stock Code"
+msgstr "Código de acciones"
+
+#: lib/includes/tofw_products.php:108 lib/includes/tofw_products.php:357
+#, fuzzy
+msgid "Core Features"
+msgstr "Características principales"
+
+#: lib/includes/tofw_products.php:122
+#, fuzzy
+msgid "Numbers only"
+msgstr "Sólo números"
+
+#: lib/includes/tofw_products.php:136 lib/includes/tofw_services.php:127
+#, fuzzy
+msgid "Select Service Tax"
+msgstr "Seleccione el impuesto de servicio"
+
+#: lib/includes/tofw_products.php:138 lib/includes/tofw_services.php:129
+#, fuzzy
+msgid "Select tax for service"
+msgstr "Seleccione el impuesto para el servicio"
+
+#: lib/includes/tofw_products.php:155 lib/includes/tofw_products.php:370
+#, fuzzy
+msgid "Installation Charges"
+msgstr "Cargos de instalación"
+
+#: lib/includes/tofw_products.php:157 lib/includes/tofw_products.php:164
+#, fuzzy
+msgid "Leave blank to hide"
+msgstr "Dejar en blanco para ocultar"
+
+#: lib/includes/tofw_products.php:162
+#, fuzzy
+msgid "Installation Message"
+msgstr "Mensaje de instalación"
+
+#: lib/includes/tofw_products.php:223
+#, fuzzy
+msgid "Part Name"
+msgstr "Nombre de la pieza"
+
+#: lib/includes/tofw_products.php:227 lib/includes/tofw_services.php:291
+#, fuzzy
+msgid "Wrranty"
+msgstr "Wrranty"
+
+#: lib/includes/tofw_products.php:345
+msgid "Product Description"
+msgstr "Descripción del producto"
+
+#: lib/includes/tofw_products.php:348
+msgid "Product Details"
+msgstr "Detalles del producto"
+
+#: lib/includes/tofw_services.php:4
+#, fuzzy
+msgid "Add new Service"
+msgstr "Añadir nuevo servicio"
+
+#: lib/includes/tofw_services.php:5
+#, fuzzy
+msgid "Service"
+msgstr "servicio"
+
+#: lib/includes/tofw_services.php:8
+#, fuzzy
+msgid "Edit Service"
+msgstr "Editar servicio"
+
+#: lib/includes/tofw_services.php:9
+#, fuzzy
+msgid "New Service"
+msgstr "Nuevo servicio"
+
+#: lib/includes/tofw_services.php:10
+#, fuzzy
+msgid "View Service"
+msgstr "Ver servicio"
+
+#: lib/includes/tofw_services.php:11
+#, fuzzy
+msgid "Search Services"
+msgstr "Servicios de búsqueda"
+
+#: lib/includes/tofw_services.php:12
+#, fuzzy
+msgid "No service found"
+msgstr "No se ha encontrado ningún servicio"
+
+#: lib/includes/tofw_services.php:13
+#, fuzzy
+msgid "No service in trash"
+msgstr "No hay servicio en la basura"
+
+#: lib/includes/tofw_services.php:19
+#, fuzzy
+msgid "Services Section"
+msgstr "Sección de Servicios"
+
+#: lib/includes/tofw_services.php:43
+msgid "Service Types"
+msgstr "Tipos de servicios"
+
+#: lib/includes/tofw_services.php:44 lib/includes/tofw_services.php:53
+#: lib/includes/tofw_services.php:57 lib/includes/tofw_services.php:267
+msgid "Service Type"
+msgstr "Tipo de servicio"
+
+#: lib/includes/tofw_services.php:45
+#, fuzzy
+msgid "Search Service Types"
+msgstr "Tipos de servicio de búsqueda"
+
+#: lib/includes/tofw_services.php:46
+#, fuzzy
+msgid "All Service Types"
+msgstr "Todos los tipos de servicio"
+
+#: lib/includes/tofw_services.php:47
+#, fuzzy
+msgid "Parent Type"
+msgstr "Tipo de padre"
+
+#: lib/includes/tofw_services.php:48
+#, fuzzy
+msgid "Parent Type:"
+msgstr "Tipo de padre:"
+
+#: lib/includes/tofw_services.php:49
+#, fuzzy
+msgid "Edit Service Type"
+msgstr "Editar tipo de servicio"
+
+#: lib/includes/tofw_services.php:50
+#, fuzzy
+msgid "Update Service Type"
+msgstr "Actualizar tipo de servicio"
+
+#: lib/includes/tofw_services.php:51
+#, fuzzy
+msgid "Add New Service Type"
+msgstr "Agregar nuevo tipo de servicio"
+
+#: lib/includes/tofw_services.php:52
+#, fuzzy
+msgid "New Service Type Name"
+msgstr "Nuevo nombre de tipo de servicio"
+
+#: lib/includes/tofw_services.php:104 lib/includes/tofw_services.php:261
+#: lib/includes/tofw_services.php:289
+#, fuzzy
+msgid "Time Required"
+msgstr "Tiempo requerido"
+
+#: lib/includes/tofw_services.php:150
+#, fuzzy
+msgid "Pick Up & Delivery Available"
+msgstr "Recogida y entrega disponible"
+
+#: lib/includes/tofw_services.php:163
+#, fuzzy
+msgid "Warranty Period Availability"
+msgstr "Disponibilidad del período de garantía"
+
+#: lib/includes/tofw_services.php:223
+#, fuzzy
+msgid "Service Description"
+msgstr "Descripción del servicio"
+
+#: lib/includes/tofw_services.php:225
+#, fuzzy
+msgid "Service Details"
+msgstr "Detalles del servicio"
+
+#: lib/includes/tofw_services.php:230
+#, fuzzy
+msgid "Pickup and delivery"
+msgstr "Recogida y entrega"
+
+#: lib/includes/tofw_services.php:231 lib/includes/tofw_services.php:250
+msgid "Yes"
+msgstr "Sí"
+
+#: lib/includes/tofw_services.php:233
+#, fuzzy
+msgid "Pick and delivery charges"
+msgstr "Gastos de recogida y entrega"
+
+#: lib/includes/tofw_services.php:249
+#, fuzzy
+msgid "Warranty Period Service"
+msgstr "Servicio del período de garantía"
+
+#: lib/includes/tofw_services.php:251
+#, fuzzy
+msgid "For One Day"
+msgstr "Por un día"
+
+#: lib/includes/tofw_services.php:253
+#, fuzzy
+msgid "For one week"
+msgstr "Durante una semana"
+
+#: lib/includes/tofw_services.php:258
+#, fuzzy
+msgid "Service Price"
+msgstr "Precio del servicio"
+
+#: lib/includes/tofw_services.php:287
+#, fuzzy
+msgid "Service Name"
+msgstr "Nombre del servicio"
+
+#: lib/includes/tofw_services.php:290
+#, fuzzy
+msgid "Service Cost"
+msgstr "Costo del servicio"
+
+#: lib/includes/tofw_shops.php:4 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:4
+#, fuzzy
+msgid "Add new shop"
+msgstr "Añadir nueva tienda"
+
+#: lib/includes/tofw_shops.php:5 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:5
+#, fuzzy
+msgid "Shop"
+msgstr "Tienda"
+
+#: lib/includes/tofw_shops.php:6 lib/includes/tofw_shops.php:7
+#: lib/includes/tofw_shops.php:18 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:6 otb_Shop.php:7 otb_Shop.php:18
+msgid "Shops"
+msgstr "Tiendas"
+
+#: lib/includes/tofw_shops.php:8 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:8
+#, fuzzy
+msgid "Edit shop"
+msgstr "Editar tienda"
+
+#: lib/includes/tofw_shops.php:9 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:9
+#, fuzzy
+msgid "New shop"
+msgstr "Nueva tienda"
+
+#: lib/includes/tofw_shops.php:10 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:10
+#, fuzzy
+msgid "View shop"
+msgstr "Ver tienda"
+
+#: lib/includes/tofw_shops.php:11 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:11
+#, fuzzy
+msgid "Search shop"
+msgstr "Buscar tienda"
+
+#: lib/includes/tofw_shops.php:12 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:12
+#, fuzzy
+msgid "No shop Related to your search"
+msgstr "Sin tienda Relacionado con su búsqueda"
+
+#: lib/includes/tofw_shops.php:13 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:13
+#, fuzzy
+msgid "No shop in trash"
+msgstr "No hay tienda en la basura"
+
+#: lib/includes/tofw_shops.php:19 lib/snippets/Snippet tofw_shops type
+#: registration otb_Shop.php:19
+#, fuzzy
+msgid ""
+"Every shop have its own manager who have access to all jobs, technicians, "
+"clients of that shop. While admin can view all shops and its data."
+msgstr ""
+"Cada tienda tiene su propio gerente que tiene acceso a todos los trabajos, "
+"técnicos, clientes de esa tienda. Mientras que el administrador puede ver "
+"todas las tiendas y sus datos."
+
+#: lib/includes/tofw_technicians.php:40
+#, fuzzy
+msgid "Manage Technicians"
+msgstr "Administrar técnicos"
+
+#: lib/includes/tofw_technicians.php:51
+#, fuzzy
+msgid "Technicians."
+msgstr "Técnicos."
+
+#: lib/shortcodes/list_products.php:32 lib/shortcodes/list_services.php:34
+#, fuzzy
+msgid "Sorry, no product matched your criteria."
+msgstr "Lo sentimos, ningún producto se ajustaba a sus criterios."
+
+#: lib/shortcodes/my_account.php:24
+#, fuzzy
+msgid "Login Below!"
+msgstr "Inicie sesión a continuación!"
+
+#: lib/shortcodes/my_account.php:28
+msgid "Lost Password"
+msgstr "Contraseña perdida"
+
+#: lib/shortcodes/my_account.php:45
+#, fuzzy
+msgid "Account Links"
+msgstr "Enlaces de cuenta"
+
+#: lib/shortcodes/my_account.php:51
+msgid "Dashboard"
+msgstr "Panel de control"
+
+#: lib/shortcodes/my_account.php:57
+#, fuzzy
+msgid "Request Quote"
+msgstr "Solicitar presupuesto"
+
+#: lib/shortcodes/my_account.php:62
+#, fuzzy
+msgid "Edit Profile"
+msgstr "Editar perfil"
+
+#: lib/shortcodes/my_account.php:67
+msgid "Logout"
+msgstr "Desconexión"
+
+#: lib/shortcodes/my_account.php:87
+#, fuzzy
+msgid "You do not have permission to view this record."
+msgstr "No tiene permiso para ver este registro."
+
+#: lib/shortcodes/my_account.php:94
+#, fuzzy
+msgid "Welcom"
+msgstr "Welcom"
+
+#: lib/shortcodes/my_account.php:95
+#, fuzzy
+msgid ""
+"Here you can check your jobs and their statuses also you can request new "
+"quote."
+msgstr ""
+"Aquí puedes consultar tus trabajos y sus estados también puedes solicitar un "
+"nuevo presupuesto."
+
+#: lib/shortcodes/my_account.php:96
+#, fuzzy
+msgid "Filter Jobs"
+msgstr "Filtrar trabajos"
+
+#: lib/shortcodes/order_status.php:10
+#, fuzzy
+msgid "Service/Repair Status"
+msgstr "Estado de servicio/reparación"
+
+#: lib/shortcodes/order_status.php:11
+#, fuzzy
+msgid "Please Enter Your Ticket Number"
+msgstr "Introduce tu número de billete"
+
+#: lib/shortcodes/order_status.php:14
+#, fuzzy
+msgid "Ticket Number..."
+msgstr "Número de boleto..."
+
+#: lib/shortcodes/order_status.php:16
+#, fuzzy
+msgid "Review Status"
+msgstr "Estado de la revisión"
+
+#: lib/shortcodes/order_status.php:32 lib/shortcodes/request_quote.php:125
+#: lib/shortcodes/start_job_by_device.php:181
+#: lib/shortcodes/start_job_by_location.php:183
+#, fuzzy
+msgid "Something is wrong with your submission!"
+msgstr "¡Algo está mal con su presentación!"
+
+#: lib/shortcodes/order_status.php:59
+#, fuzzy
+msgid "We haven't found any job with your given ticket number!"
+msgstr "¡No hemos encontrado ningún trabajo con su número de boleto dado!"
+
+#: lib/shortcodes/request_quote.php:14
+#, fuzzy
+msgid "Request a quote now!"
+msgstr "¡Solicite una cotización ahora!"
+
+#: lib/shortcodes/request_quote.php:15
+#, fuzzy
+msgid "Fill in the form below to get your quote."
+msgstr "Rellene el siguiente formulario para obtener su cotización."
+
+#: lib/shortcodes/request_quote.php:47
+#: lib/shortcodes/start_job_by_device.php:107
+#: lib/shortcodes/start_job_by_location.php:107
+msgid "Phone number"
+msgstr "Número de teléfono"
+
+#: lib/shortcodes/request_quote.php:104
+#, fuzzy
+msgid "Request Quote!"
+msgstr "¡Solicite presupuesto!"
+
+#: lib/shortcodes/request_quote.php:108
+#, fuzzy
+msgid "Required fields cannot be left empty."
+msgstr "Los campos obligatorios no se pueden dejar vacíos."
+
+#: lib/shortcodes/request_quote.php:132
+#: lib/shortcodes/start_job_by_device.php:188
+#: lib/shortcodes/start_job_by_location.php:190
+#, fuzzy
+msgid "Unknown form."
+msgstr "Forma desconocida."
+
+#: lib/shortcodes/request_quote.php:150
+#: lib/shortcodes/start_job_by_device.php:206
+#: lib/shortcodes/start_job_by_location.php:208
+#, fuzzy
+msgid "Email is not valid."
+msgstr "El correo electrónico no es válido."
+
+#: lib/shortcodes/request_quote.php:153
+#: lib/shortcodes/start_job_by_device.php:209
+#: lib/shortcodes/start_job_by_location.php:211
+#, fuzzy
+msgid "First name required."
+msgstr "Se requiere nombre de pila."
+
+#: lib/shortcodes/request_quote.php:156 lib/shortcodes/request_quote.php:223
+#: lib/shortcodes/start_job_by_device.php:212
+#: lib/shortcodes/start_job_by_location.php:214
+#, fuzzy
+msgid "Please enter job details."
+msgstr "Introduce los detalles del trabajo."
+
+#: lib/shortcodes/request_quote.php:159
+#: lib/shortcodes/start_job_by_device.php:215
+#: lib/shortcodes/start_job_by_location.php:217
+#, fuzzy
+msgid "Duplicate User. Please login to submit your quote request."
+msgstr ""
+"Usuario duplicado. Por favor, inicie sesión para enviar su solicitud de "
+"presupuesto."
+
+#: lib/shortcodes/request_quote.php:168
+#, fuzzy
+msgid ""
+"Email already in user. Try resetting password if its your Email. Then login "
+"to submit your quote request."
+msgstr ""
+"Correo electrónico ya en el usuario. Intente restablecer la contraseña si es "
+"su correo electrónico. Luego inicie sesión para enviar su solicitud de "
+"cotización."
+
+#: lib/shortcodes/request_quote.php:258
+#, fuzzy
+msgid ""
+"We have received your quote request we would get back to you asap! Thanks."
+msgstr ""
+"Hemos recibido su solicitud de cotización que nos gustaría volver a usted lo "
+"antes posible! Gracias."
+
+#: lib/shortcodes/request_quote.php:261
+#: lib/shortcodes/start_job_by_device.php:340
+#: lib/shortcodes/start_job_by_location.php:343
+#, fuzzy
+msgid "Your case is already registered with us."
+msgstr "Su caso ya está registrado con nosotros."
+
+#: lib/shortcodes/request_quote.php:272
+#, fuzzy
+msgid "New quote request"
+msgstr "Nueva solicitud de presupuesto"
+
+#: lib/shortcodes/request_quote.php:276
+#, fuzzy
+msgid "You have received a quote request."
+msgstr "Ha recibido una solicitud de presupuesto."
+
+#: lib/shortcodes/request_quote.php:277
+#, fuzzy
+msgid "First Name: ."
+msgstr "Primer nombre"
+
+#: lib/shortcodes/request_quote.php:278
+#, fuzzy
+msgid "Last Name: ."
+msgstr "Apellido"
+
+#: lib/shortcodes/request_quote.php:279
+#, fuzzy
+msgid "Job Details: ."
+msgstr "Detalles del trabajo: ."
+
+#: lib/shortcodes/start_job_by_device.php:29
+#: lib/shortcodes/start_job_by_location.php:29
+#, fuzzy
+msgid "Start a Job"
+msgstr "Iniciar un trabajo"
+
+#: lib/shortcodes/start_job_by_device.php:33
+#: lib/shortcodes/start_job_by_location.php:33
+#, fuzzy
+msgid "Start a New Job"
+msgstr "Iniciar un nuevo trabajo"
+
+#: lib/shortcodes/start_job_by_device.php:159
+#: lib/shortcodes/start_job_by_location.php:159
+#, fuzzy
+msgid "Create Job"
+msgstr "Crear trabajo"
+
+#: lib/shortcodes/start_job_by_device.php:224
+#: lib/shortcodes/start_job_by_location.php:226
+#, fuzzy
+msgid ""
+"Email already exists in customers, please use different email or search "
+"customer above."
+msgstr ""
+"El correo electrónico ya existe en los clientes, por favor use un correo "
+"electrónico diferente o busque el cliente anterior."
+
+#: lib/shortcodes/start_job_by_device.php:266
+#: lib/shortcodes/start_job_by_location.php:268
+#, fuzzy
+msgid "Please select a customer or add new customer."
+msgstr "Seleccione un cliente o agregue un nuevo cliente."
+
+#: lib/shortcodes/start_job_by_device.php:276
+#: lib/shortcodes/start_job_by_location.php:278
+#, fuzzy
+msgid "Invalid Customer."
+msgstr "Cliente no válido."
+
+#: lib/shortcodes/start_job_by_device.php:282
+#, fuzzy
+msgid "Please select device."
+msgstr "Seleccione el dispositivo."
+
+#: lib/shortcodes/start_job_by_device.php:287
+#: lib/shortcodes/start_job_by_location.php:290
+#, fuzzy
+msgid "Please add job details."
+msgstr "Agregue los detalles del trabajo."
+
+#: lib/shortcodes/start_job_by_device.php:292
+#: lib/shortcodes/start_job_by_location.php:295
+#, fuzzy
+msgid "Please add delivery date."
+msgstr "Por favor, agregue la fecha de entrega."
+
+#: lib/shortcodes/start_job_by_device.php:337
+#: lib/shortcodes/start_job_by_location.php:340
+#, fuzzy
+msgid "A new case have been registered with Case# "
+msgstr "Se ha registrado un nuevo caso con número de caso "
+
+#: lib/shortcodes/start_job_by_location.php:284
+#, fuzzy
+msgid "Please select location."
+msgstr "Seleccione la ubicación."
+
+#: lib/snippets/Snippet Reporting via Invoice.php:162
+#, fuzzy
+msgid "Thanks for your business!"
+msgstr "Gracias por su negocio!"
